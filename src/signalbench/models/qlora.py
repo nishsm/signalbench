@@ -29,9 +29,12 @@ def load(cfg: dict, revision: str, adapter: bool = False):
     import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
-    if not torch.cuda.is_available():
-        raise RuntimeError("Qwen QLoRA requires the Linux CUDA machine; this host has no CUDA")
-    dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+    from signalbench.models.training import hardware
+
+    info = hardware(cfg)
+    dtype = {"bf16": torch.bfloat16, "fp16": torch.float16, "fp32": torch.float32}[
+        info["precision"]
+    ]
     quant = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
@@ -103,7 +106,16 @@ def train(cfg: dict, frame, revision: str) -> None:
     from trl import SFTConfig, SFTTrainer
 
     from signalbench.core import artifact, digest
+    from signalbench.models.training import validate_training_frame
 
+    validate_training_frame(frame)
+    if cfg["training"].get("smoke_test"):
+        frame = (
+            frame[frame.split.isin(["train", "val"])]
+            .groupby(["split", "label"], group_keys=False)
+            .head(8)
+            .copy()
+        )
     manifest = {
         "base_revision": revision,
         "training": cfg["training"],
@@ -111,7 +123,7 @@ def train(cfg: dict, frame, revision: str) -> None:
         "data_ids": sorted(frame.loc[frame.split.isin(["train", "val"]), "id"].tolist()),
     }
     manifest["hash"] = digest(manifest)
-    checkpoint_dir = Path("models/checkpoints")
+    checkpoint_dir = Path(cfg["paths"].get("checkpoints", "models/checkpoints"))
     manifest_path = checkpoint_dir / "experiment.json"
     if manifest_path.exists() and json.loads(manifest_path.read_text())["hash"] != manifest["hash"]:
         raise ValueError("Checkpoint experiment differs; choose a new checkpoint directory")
@@ -129,8 +141,11 @@ def train(cfg: dict, frame, revision: str) -> None:
             rows.append({"prompt": prefix, "completion": row.label + tokenizer.eos_token})
         return Dataset.from_list(rows)
 
+    from signalbench.models.training import precision_name, supports_native_bf16
+
+    compute_precision = precision_name(tr.get("precision", "auto"), supports_native_bf16())
     args = SFTConfig(
-        output_dir="models/checkpoints",
+        output_dir=str(checkpoint_dir),
         max_length=tr["max_length"],
         completion_only_loss=True,
         per_device_train_batch_size=tr["batch_size"],
@@ -138,8 +153,9 @@ def train(cfg: dict, frame, revision: str) -> None:
         gradient_accumulation_steps=tr["accumulation"],
         gradient_checkpointing=True,
         gradient_checkpointing_kwargs={"use_reentrant": False},
-        bf16=torch.cuda.is_bf16_supported(),
-        fp16=not torch.cuda.is_bf16_supported(),
+        bf16=compute_precision == "bf16",
+        fp16=compute_precision == "fp16",
+        max_steps=tr.get("max_steps", -1),
         num_train_epochs=tr["epochs"],
         learning_rate=tr["learning_rate"],
         eval_strategy="steps",
@@ -148,11 +164,11 @@ def train(cfg: dict, frame, revision: str) -> None:
         save_total_limit=2,
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
-        logging_steps=10,
+        logging_steps=tr.get("logging_steps", 10),
         report_to="none",
         seed=cfg["seed"],
         packing=False,
-        optim="paged_adamw_8bit",
+        optim=tr.get("optimizer", "paged_adamw_8bit"),
     )
     lora = LoraConfig(
         r=tr["rank"],
@@ -169,6 +185,20 @@ def train(cfg: dict, frame, revision: str) -> None:
         ],
         task_type="CAUSAL_LM",
     )
+    callbacks = [EarlyStoppingCallback(early_stopping_patience=tr["patience"])]
+    if tr.get("tracking") == "trackio":
+        import trackio
+        from transformers import TrainerCallback
+
+        trackio.init(
+            project="signalbench", name=Path(cfg["paths"]["results"]).parent.name, config=tr
+        )
+
+        class TrackioCallback(TrainerCallback):
+            def on_log(self, args, state, control, logs=None, **kwargs):
+                trackio.log(logs or {}, step=state.global_step)
+
+        callbacks.append(TrackioCallback())
     trainer = SFTTrainer(
         model=model,
         args=args,
@@ -176,20 +206,42 @@ def train(cfg: dict, frame, revision: str) -> None:
         train_dataset=dataset("train"),
         eval_dataset=dataset("val"),
         peft_config=lora,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=tr["patience"])],
+        callbacks=callbacks,
     )
-    checkpoint = Path("models/checkpoints")
+    checkpoint = Path(cfg["paths"].get("checkpoints", "models/checkpoints"))
     from transformers.trainer_utils import get_last_checkpoint
 
     resume = get_last_checkpoint(str(checkpoint)) if checkpoint.exists() else None
+    import time
+    from datetime import datetime, timezone
+
+    from signalbench.core import provenance
+
+    started = time.perf_counter()
+    torch.cuda.reset_peak_memory_stats()
     trainer.train(resume_from_checkpoint=resume)
+    history = trainer.state.log_history
+    for entry in history:
+        for key in ["loss", "eval_loss", "grad_norm"]:
+            if key in entry and not np.isfinite(entry[key]):
+                raise RuntimeError(f"Nonfinite {key}; investigate before exporting an adapter")
+    measured = {
+        "elapsed_seconds": time.perf_counter() - started,
+        "peak_allocated_vram_gb": torch.cuda.max_memory_allocated() / 1024**3,
+        "peak_reserved_vram_gb": torch.cuda.max_memory_reserved() / 1024**3,
+        "gpu": torch.cuda.get_device_name(0),
+        "smoke_test": tr.get("smoke_test", False),
+        "run_completed_at": datetime.now(timezone.utc).isoformat(),
+        "provenance": provenance(cfg),
+    }
+    artifact(
+        Path(cfg["paths"]["results"]) / "training/runtime.json", cfg, json.dumps(measured, indent=2)
+    )
+    if tr.get("tracking") == "trackio":
+        trackio.finish()
     trainer.save_model(cfg["paths"]["adapter"])
     tokenizer.save_pretrained(cfg["paths"]["adapter"])
     artifact(Path(cfg["paths"]["adapter"]) / "experiment.json", cfg, json.dumps(manifest, indent=2))
-    import json
-
-    from signalbench.core import artifact
-
     artifact(
         Path(cfg["paths"]["results"]) / "training/log.json",
         cfg,

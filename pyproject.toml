@@ -18,7 +18,8 @@ dependencies = [
 [project.optional-dependencies]
 ml = ["torch==2.7.1", "transformers==4.53.2", "peft==0.16.0", "trl==0.19.1", "accelerate==1.8.1", "datasets==3.6.0", "sentence-transformers==4.1.0"]
 train = ["bitsandbytes==0.46.1; sys_platform == 'linux'"]
-dev = ["pytest==8.4.1", "ruff==0.12.4", "pre-commit==4.2.0"]
+tracking = ["trackio==0.2.2", "gradio==5.35.0"]
+dev = ["nbformat==5.10.4", "pytest==8.4.1", "ruff==0.12.4", "pre-commit==4.2.0"]
 [project.scripts]
 signalbench = "signalbench.cli:main"
 [tool.pytest.ini_options]

@@ -1,0 +1,73 @@
+# Primary 3B QLoRA experiment; verify memory with --smoke first.
+api:
+  budget: 20.0
+  input_per_million: 0.15
+  max_output_tokens: 8
+  model: gpt-4o-mini-2024-07-18
+  output_per_million: 0.6
+  price_date: '2026-10-14'
+  price_source: https://developers.openai.com/api/docs/models/gpt-4o-mini
+backtest:
+  costs_bps:
+  - 0
+  - 10
+  - 25
+  hold_days: 5
+  minimum_month_events: 10
+  training_cutoffs:
+    api_few: '2023-10-01'
+    api_rag: '2023-10-01'
+    api_zero: '2023-10-01'
+    finbert: null
+    qlora: null
+benchmark:
+  bootstrap: 1000
+  models:
+  - qwen_base
+  - qlora
+  shots_per_label: 2
+data:
+  configs:
+  - sentences_allagree
+  - sentences_75agree
+  near_similarity: 0.95
+  phrasebank: takala/financial_phrasebank
+  twitter: zeroshot/twitter-financial-news-sentiment
+edgar:
+  end: '2026-09-30'
+  scaleup_approved: false
+  start: '2019-01-01'
+  universe: data/universe.csv
+hub:
+  repo_id: null
+paths:
+  adapter: models/rtx4060-adapter
+  cache: data/cache
+  db: data/signalbench.duckdb
+  results: results/runs/rtx4060
+  checkpoints: models/rtx4060-checkpoints
+seed: 42
+signal:
+  api_subsample: 100
+  models:
+  - finbert
+  - qlora
+  sentences: 40
+training:
+  accumulation: 16
+  alpha: 32
+  base: Qwen/Qwen2.5-3B-Instruct
+  batch_size: 1
+  dropout: 0.05
+  epochs: 5
+  eval_steps: 50
+  learning_rate: 0.0002
+  max_length: 256
+  patience: 3
+  rank: 16
+  save_steps: 50
+  precision: auto
+  minimum_vram_gb: 7
+  max_steps: -1
+  logging_steps: 10
+  tracking: none

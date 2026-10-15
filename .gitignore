@@ -14,3 +14,5 @@ __pycache__/
 *.bin
 *.egg-info/
 .DS_Store
+/runs/
+.ipynb_checkpoints/

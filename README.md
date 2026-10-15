@@ -85,6 +85,13 @@ contaminated reference, not an independent generalization estimate. Cluster-by-d
 errors do not address all same-firm serial dependence, multiple testing or overlapping windows.
 The best observed trading Sharpe is exploratory and cannot establish deployable alpha.
 
+## Fine-tune in a notebook or overnight
+
+[Open the training notebook in Colab](https://colab.research.google.com/github/nishsm/signalbench/blob/main/notebooks/finetune_signalbench.ipynb)
+for the primary 3B experiment, with persistent checkpoints and a memory smoke test. The same
+code runs locally on Linux/WSL2. A separate GTX 1650 profile uses a smaller 0.5B model; its
+results must not be presented as 3B results. See [the training guide](docs/TRAINING.md).
+
 ## Reproduce
 
 Python 3.11–3.13. Use a virtual environment; direct dependencies are pinned in `pyproject.toml`.

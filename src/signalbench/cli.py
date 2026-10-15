@@ -29,10 +29,17 @@ def main() -> None:
             "publish",
         ],
     )
+    parser.add_argument("--smoke", action="store_true", help="Isolated two-update training check")
     args = parser.parse_args()
+    if args.smoke and args.stage != "finetune":
+        parser.error("--smoke is only valid with finetune")
     load_dotenv()
     cfg = config(args.config)
     os.environ.setdefault("HF_HOME", str(Path(cfg["paths"]["cache"]) / "huggingface"))
+    if args.smoke:
+        from signalbench.models.training import smoke_config
+
+        cfg = smoke_config(cfg)
     setup(cfg["seed"])
     if args.stage == "universe":
         from signalbench.data.universe import run
