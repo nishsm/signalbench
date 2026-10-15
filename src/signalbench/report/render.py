@@ -26,7 +26,7 @@ def run(cfg: dict) -> None:
         benchmark = out / "cpu/benchmark.csv"
     complete = False
     if benchmark.exists():
-        measured_models = set(pd.read_csv(benchmark).model)
+        measured_models = set(pd.read_csv(benchmark, float_precision="round_trip").model)
         complete = {
             "tfidf",
             "finbert",
@@ -38,7 +38,7 @@ def run(cfg: dict) -> None:
         } <= measured_models
     backtest = out / "backtest.csv"
     if benchmark.exists():
-        frame = pd.read_csv(benchmark)
+        frame = pd.read_csv(benchmark, float_precision="round_trip")
         sections.append(
             f"## Classification\n\nSource: `{benchmark}`; "
             "script: `src/signalbench/eval/benchmark.py`.\n\n"
@@ -55,8 +55,13 @@ def run(cfg: dict) -> None:
         sections.append(
             "Classification F1, CIs, McNemar p-values, API cost and throughput: " + PENDING
         )
+    if not complete:
+        sections.append(
+            "Fine-tuned model and API macro-F1/CIs, paired McNemar p-values, "
+            "actual API $/1K documents and RTX throughput: " + PENDING
+        )
     if backtest.exists():
-        frame = pd.read_csv(backtest)
+        frame = pd.read_csv(backtest, float_precision="round_trip")
         sections.append(
             "## Returns\n\nSource: `results/backtest.csv`; "
             "script: `src/signalbench/backtest/runner.py`.\n\n"
@@ -96,7 +101,7 @@ def run(cfg: dict) -> None:
                     "\n\nMeasured benchmark and backtest: [full evidence](results/README.md).\n"
                 )
             if benchmark.exists():
-                selected = pd.read_csv(benchmark)
+                selected = pd.read_csv(benchmark, float_precision="round_trip")
                 selected = selected[selected.partition.isin(["test", "ood"])]
                 generated += (
                     "\nMeasured classification results "

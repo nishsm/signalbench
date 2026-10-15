@@ -1,0 +1,6 @@
+source,split,negative,neutral,positive
+sentences_75agree,secondary_only,116,748,315
+sentences_allagree,test,61,275,112
+sentences_allagree,train,211,961,392
+sentences_allagree,val,30,138,56
+twitter,ood,347,1558,475

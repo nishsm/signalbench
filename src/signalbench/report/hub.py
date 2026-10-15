@@ -22,6 +22,11 @@ def publish(cfg: dict) -> None:
     results = Path(cfg["paths"]["results"])
     if not (results / "benchmark.csv").exists() or (results / "REVIEW_REQUIRED.json").exists():
         raise RuntimeError("Measured, reviewed benchmark required before publication")
+    import pandas as pd
+
+    measured = pd.read_csv(results / "benchmark.csv")
+    if not {"test", "ood"} <= set(measured.loc[measured.model == "qlora", "partition"]):
+        raise RuntimeError("Adapter needs measured in-domain and OOD evaluation before publication")
     rev = revision(cfg, cfg["training"]["base"])
     response = httpx.get(
         f"https://huggingface.co/{cfg['training']['base']}/raw/{rev}/LICENSE", follow_redirects=True
@@ -72,6 +77,7 @@ PhraseBank exposure, survivorship and incomplete free price histories affect int
         folder_path=folder,
         allow_patterns=[
             "adapter_*",
+            "experiment.json*",
             "tokenizer*",
             "special_tokens_map.json",
             "vocab.json",

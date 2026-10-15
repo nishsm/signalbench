@@ -1,0 +1,17 @@
+{
+  "negative": {
+    "precision": 0.8823529411764706,
+    "recall": 1.0,
+    "support": 30
+  },
+  "neutral": {
+    "precision": 1.0,
+    "recall": 0.9420289855072463,
+    "support": 138
+  },
+  "positive": {
+    "precision": 0.9166666666666666,
+    "recall": 0.9821428571428571,
+    "support": 56
+  }
+}

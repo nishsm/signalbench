@@ -1,0 +1,4930 @@
+[
+  {
+    "id": "007bb63f98eba693861afc149278e0dd59714aeef826329d91497e2ec7b7bf30",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.0007559880614280701,
+    "probabilities": [
+      0.040367141366004944,
+      0.9200217127799988,
+      0.039611153304576874
+    ]
+  },
+  {
+    "id": "01d8862a857365427768f55efcbfe5f4758af6a697cb7a23f18b9c0633e9eed3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.008813686668872833,
+    "probabilities": [
+      0.018431352451443672,
+      0.9543236494064331,
+      0.027245039120316505
+    ]
+  },
+  {
+    "id": "020b2f36c284930f62faef3b93d80f730ceb8353dc646f37edfcd82c43a071b9",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9209238886833191,
+    "probabilities": [
+      0.027701377868652344,
+      0.023673279210925102,
+      0.9486252665519714
+    ]
+  },
+  {
+    "id": "02354ce373c570a7a3ad32e41449ef9a0af73e3971f3c38df607e0c2ac4853e7",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0011913161724805832,
+    "probabilities": [
+      0.021758263930678368,
+      0.9552921652793884,
+      0.02294958010315895
+    ]
+  },
+  {
+    "id": "025232a322b10de87f3e5fe26041a6ad1c3e7d2877f3ddd2931923b2a61c7d33",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.17752983327955008,
+    "probabilities": [
+      0.00842792633920908,
+      0.8056142926216125,
+      0.18595775961875916
+    ]
+  },
+  {
+    "id": "029a6930698f21ec10d83e2b234175937b0d4b449bf95c1c67ce69de7cf8c87b",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9266881681978703,
+    "probabilities": [
+      0.02332838997244835,
+      0.026655079796910286,
+      0.9500165581703186
+    ]
+  },
+  {
+    "id": "02b6afac0c8aeeba1bdc0567e80657e276b5ebcc29467d0ccf7673e18ae22e91",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.927513163536787,
+    "probabilities": [
+      0.025721628218889236,
+      0.021043598651885986,
+      0.9532347917556763
+    ]
+  },
+  {
+    "id": "032821bdcf47ef9b05c9c17e77da50df1e4a3c1469bf87c71f4396132d87b496",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9689848069101572,
+    "probabilities": [
+      0.9765623211860657,
+      0.015860220417380333,
+      0.00757751427590847
+    ]
+  },
+  {
+    "id": "038045d8a71c6a2e04e4a604ffb13c481fbd74aa0649bd5e66828e990a6209d5",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.23721729684621096,
+    "probabilities": [
+      0.010427664034068584,
+      0.7419273853302002,
+      0.24764496088027954
+    ]
+  },
+  {
+    "id": "03a1b84a404824e9d16b26576922f0f49505eb4be7684a9651027e466b3b6747",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9247686602175236,
+    "probabilities": [
+      0.026597347110509872,
+      0.022036658599972725,
+      0.9513660073280334
+    ]
+  },
+  {
+    "id": "0450acc814e0880b610f65d4770d26ec31293c7e4e0e7b9d5ac2b935dbc9d859",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.10570861864835024,
+    "probabilities": [
+      0.007942858152091503,
+      0.8784056305885315,
+      0.11365147680044174
+    ]
+  },
+  {
+    "id": "05080fd41fc10548d6ddbfc175a7cbbccb2ef157f828a25de9ee526d2c2a5f9e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0009581111371517181,
+    "probabilities": [
+      0.023327277973294258,
+      0.9523873925209045,
+      0.024285389110445976
+    ]
+  },
+  {
+    "id": "05193b8259844a918880e4345943a1070f12f6f2df1b0a1cad8501936ff496d3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.0262898076325655,
+    "probabilities": [
+      0.05034075677394867,
+      0.9256082773208618,
+      0.02405094914138317
+    ]
+  },
+  {
+    "id": "0647beda263c2a8d3b00d5000a9752bce456dc7dc8b65f6894cb20a7398374b6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.08878381922841072,
+    "probabilities": [
+      0.13642452657222748,
+      0.8159347176551819,
+      0.04764070734381676
+    ]
+  },
+  {
+    "id": "0648ca1fded98c5c9e32ba5c03a5c86f1fc237a5b24d08e630f8724cfa8324c5",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9491312354803085,
+    "probabilities": [
+      0.9656737446784973,
+      0.01778378337621689,
+      0.016542509198188782
+    ]
+  },
+  {
+    "id": "065892e10ece3ea26a43f19fdfb737b12c27f1482b53ac9b84a8c0dd713a5575",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.010533163323998451,
+    "probabilities": [
+      0.02175300009548664,
+      0.9459608793258667,
+      0.03228616341948509
+    ]
+  },
+  {
+    "id": "065e50add774c3796259119c94cf7880d293e79bb58e051fad40eddc6e5cdfd6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05357193946838379,
+    "probabilities": [
+      0.009855292737483978,
+      0.9267175197601318,
+      0.06342723220586777
+    ]
+  },
+  {
+    "id": "07010092c17268ab8d4402e3981a43c89c73a421e1115120b55cc05f1f19dad7",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.021814710460603237,
+    "probabilities": [
+      0.015202493406832218,
+      0.9477802515029907,
+      0.037017203867435455
+    ]
+  },
+  {
+    "id": "095bf42e7d0c2c29b0ad99a8eb43db6b64043d3758632a9551fab86bc4f7ea84",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.033722423017024994,
+    "probabilities": [
+      0.018758516758680344,
+      0.9287605285644531,
+      0.05248093977570534
+    ]
+  },
+  {
+    "id": "09b8a86258fb5b4b18d78e126f073124e9939671468a76a75dec32caa88712ef",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8765449337661266,
+    "probabilities": [
+      0.04640438035130501,
+      0.030646303668618202,
+      0.9229493141174316
+    ]
+  },
+  {
+    "id": "09c54dd92c8a46dce72310cbd0232f3889b57e0624e9cb286d6062e85fd521b3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.019726930186152458,
+    "probabilities": [
+      0.01703334040939808,
+      0.9462063908576965,
+      0.03676027059555054
+    ]
+  },
+  {
+    "id": "0afc39cfea38583a78e1ca8c255a52fd9d0291834e41ca03ce17f46f6e59f124",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.012278134003281593,
+    "probabilities": [
+      0.017910217866301537,
+      0.9519014954566956,
+      0.03018835186958313
+    ]
+  },
+  {
+    "id": "0cc24b8f8111bdadd9acc8f5727bb500f88a22b731df0baa5881017ab7e3f56d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.12379596196115017,
+    "probabilities": [
+      0.013141894713044167,
+      0.8499202132225037,
+      0.13693785667419434
+    ]
+  },
+  {
+    "id": "0e5ab55f22d02d61fcbb6c8fcadb7793dfc179c5a69a03634089019caa08b998",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9679869618266821,
+    "probabilities": [
+      0.9764857292175293,
+      0.015015456825494766,
+      0.008498767390847206
+    ]
+  },
+  {
+    "id": "0e7f76703140508137f074cee19b030180d836499e2350171fc28052d69611c3",
+    "truth": "neutral",
+    "label": "negative",
+    "score": -0.9290903275832534,
+    "probabilities": [
+      0.9415820240974426,
+      0.04592633247375488,
+      0.012491696514189243
+    ]
+  },
+  {
+    "id": "0e9e1566c042757936e86e4a521c62bd29dc9629a3403ec544fabb76d9980548",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.07144339848309755,
+    "probabilities": [
+      0.010264637880027294,
+      0.9080273509025574,
+      0.08170803636312485
+    ]
+  },
+  {
+    "id": "0f14f3e235c921d05c2ad07ad3e5811806f94e20e917ddde9ede70e03461bec6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.09528528712689877,
+    "probabilities": [
+      0.014869535341858864,
+      0.8749756813049316,
+      0.11015482246875763
+    ]
+  },
+  {
+    "id": "0f90e9beefa6903c94161b596595bb2d27838efb2c009f0faff5bd02245dafe6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05414758250117302,
+    "probabilities": [
+      0.012549962848424911,
+      0.9207525253295898,
+      0.06669754534959793
+    ]
+  },
+  {
+    "id": "0fea71e63def0d4a9689f5adfa7860592229df7e1da87abaa21cf3aeee7dcad9",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08903333730995655,
+    "probabilities": [
+      0.011322250589728355,
+      0.888322114944458,
+      0.1003555878996849
+    ]
+  },
+  {
+    "id": "1178df0274169e2f6e9e0890d5a42fc7fa1013e1ac694efc412190e7162f10e7",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9410023223608732,
+    "probabilities": [
+      0.016302870586514473,
+      0.026391910389065742,
+      0.9573051929473877
+    ]
+  },
+  {
+    "id": "1240c84a95deaac607f15cddc6f2a1739e64beb2ebb7dd2494de9a26c752da51",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.09267459344118834,
+    "probabilities": [
+      0.01178711373358965,
+      0.8837512135505676,
+      0.10446170717477798
+    ]
+  },
+  {
+    "id": "133a49a9b4faa89423eed7ed6179b4c0777e7be99eb22164681b18d7ac0259d6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.0830836109817028,
+    "probabilities": [
+      0.1057615578174591,
+      0.8715605139732361,
+      0.022677946835756302
+    ]
+  },
+  {
+    "id": "138b9dfa9b6117f661580fcc26c9090a78cb26e15d0c9fc42604658ca4f9e067",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.007981667295098305,
+    "probabilities": [
+      0.03084820695221424,
+      0.9462853074073792,
+      0.022866539657115936
+    ]
+  },
+  {
+    "id": "13fa045800d6f06d7826d85c5ab5733f843fb44b325e3c630077074fdb927d19",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.009217925369739532,
+    "probabilities": [
+      0.03128335252404213,
+      0.9466512203216553,
+      0.022065427154302597
+    ]
+  },
+  {
+    "id": "13fcbe802c4079df81d60436ca413f4e1f1efa901697f3362c2149f47e5243b2",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9302485939115286,
+    "probabilities": [
+      0.016405964270234108,
+      0.036939509212970734,
+      0.9466545581817627
+    ]
+  },
+  {
+    "id": "15cd23fd4a17d6ee534bb5ab254ee81899786f4ca2c2192b9a47bfca3dbc1848",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9565284624695778,
+    "probabilities": [
+      0.9682818055152893,
+      0.019964786246418953,
+      0.011753343045711517
+    ]
+  },
+  {
+    "id": "16a7e3b96142f276a073953ce220247af236745f7bb0fef064c59a40462b2ae6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.042351800948381424,
+    "probabilities": [
+      0.07234213501214981,
+      0.8976675271987915,
+      0.029990334063768387
+    ]
+  },
+  {
+    "id": "17490b1c42156e52bda4161912a1fecd866c6b5e0fea1622551fff3d4e8babd9",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.8721659108996391,
+    "probabilities": [
+      0.9303722977638245,
+      0.011421280913054943,
+      0.05820638686418533
+    ]
+  },
+  {
+    "id": "1a142eb849df7e4cb26257796246931df7980fb4dc3795990375164c5711f8b2",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.004405319690704346,
+    "probabilities": [
+      0.024188198149204254,
+      0.9472182989120483,
+      0.0285935178399086
+    ]
+  },
+  {
+    "id": "1b411d2cf5fef3fb1408fdb4f225630be181ea46a51475a3b6b7f8a8e09ecb1e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.012770814821124077,
+    "probabilities": [
+      0.030918113887310028,
+      0.950934648513794,
+      0.01814729906618595
+    ]
+  },
+  {
+    "id": "1b9d829fd6c5ff146f78108fe409f892717ac55af7aafcc5712b045b86eeabfd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.014433378353714943,
+    "probabilities": [
+      0.03402620926499367,
+      0.9463809132575989,
+      0.019592830911278725
+    ]
+  },
+  {
+    "id": "1bb597e75bf2d5521711479a06067cb13ab9b1755660499c52fd0c94f3ccc1a1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.02472827583551407,
+    "probabilities": [
+      0.017612528055906296,
+      0.9400466680526733,
+      0.042340803891420364
+    ]
+  },
+  {
+    "id": "1c1ddac7d699db36b090dfd621da1c7402821608bb2a9cefb68ea1eeb1dd6285",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0011094305664300919,
+    "probabilities": [
+      0.023607783019542694,
+      0.9516749978065491,
+      0.024717213585972786
+    ]
+  },
+  {
+    "id": "1c44294b950c27102465dfa8bdcd4572510eaf563682188c33cb62d93e03dd8e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.038461290299892426,
+    "probabilities": [
+      0.06562505662441254,
+      0.907211184501648,
+      0.02716376632452011
+    ]
+  },
+  {
+    "id": "1cc9ea6eb0e78a814df2aac3248277b1629313b7123c979bb8ac705a7e31a7c4",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.3148907721042633,
+    "probabilities": [
+      0.32887002825737,
+      0.027369102463126183,
+      0.6437608003616333
+    ]
+  },
+  {
+    "id": "1cf17eb73fc145cd7f8df4b2d6428959f3ef5e4030dd188ba80ceaf37ad7ca18",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.932672843337059,
+    "probabilities": [
+      0.02180369198322296,
+      0.023719800636172295,
+      0.954476535320282
+    ]
+  },
+  {
+    "id": "1e0155a4d7a817fc8ca13d55d84a6bfaf911e2291e2bb17597c971249ddbcb36",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.014528486877679825,
+    "probabilities": [
+      0.033542051911354065,
+      0.9474443793296814,
+      0.01901356503367424
+    ]
+  },
+  {
+    "id": "1f7fdcc95728657763d8ec39b34c811b7e0815524582e92c69a264e0b99ed6df",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9582626670598984,
+    "probabilities": [
+      0.9747999906539917,
+      0.008662739768624306,
+      0.016537323594093323
+    ]
+  },
+  {
+    "id": "1f88e4db8a5f49dd8eb4a87405145be1ddd07e337d59939ccd01dd77aa45ddce",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08961499016731977,
+    "probabilities": [
+      0.008277338929474354,
+      0.8938302993774414,
+      0.09789232909679413
+    ]
+  },
+  {
+    "id": "1fc82efe3c7b5ceb3b4378245e46bf04d7968b8eaa279c583b9dfeeaeb29c67c",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -2.2856518626213074e-05,
+    "probabilities": [
+      0.02366458810865879,
+      0.9526937007904053,
+      0.023641731590032578
+    ]
+  },
+  {
+    "id": "2108293fbf1e12aa1a8b1780fbb66d7960ff580dfee5df33868468cd41604ada",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.1161107886582613,
+    "probabilities": [
+      0.00805572234094143,
+      0.8677777647972107,
+      0.12416651099920273
+    ]
+  },
+  {
+    "id": "215667f5cd1c09172117383ee200c8e0990ec3cd3d6b4b5f2f8f81d97674519e",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9263178128749132,
+    "probabilities": [
+      0.023913858458399773,
+      0.025854427367448807,
+      0.950231671333313
+    ]
+  },
+  {
+    "id": "2168c89c95d9371e1f3ad3b3e437b4d42d7ac8dd56a0b89f099865bfba56085a",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9284791145473719,
+    "probabilities": [
+      0.019935330376029015,
+      0.03165024518966675,
+      0.9484144449234009
+    ]
+  },
+  {
+    "id": "21a14091f9d368c1840ff47d2c2bc153a916c0b4de8bd2f7840675f0f8a6b1ad",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05203837435692549,
+    "probabilities": [
+      0.01136027742177248,
+      0.9252410531044006,
+      0.06339865177869797
+    ]
+  },
+  {
+    "id": "23bafdd343d64cdcf7eaec73095f953a93a8a9877f0889fafa4aa1cb349b0b26",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.013419855386018753,
+    "probabilities": [
+      0.020159345120191574,
+      0.946261465549469,
+      0.03357920050621033
+    ]
+  },
+  {
+    "id": "2403653b4fcbabbe598d11b4fc7b39557ece1fbd640c2bf70ae6c2edde51df94",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0405731201171875,
+    "probabilities": [
+      0.013782113790512085,
+      0.9318626523017883,
+      0.054355233907699585
+    ]
+  },
+  {
+    "id": "24687758523cd5847edc6b7d9526007b206db297555e19fd698f94ce1794c9ac",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9268246041610837,
+    "probabilities": [
+      0.014477516524493694,
+      0.04422041401267052,
+      0.9413021206855774
+    ]
+  },
+  {
+    "id": "25b01237f4e273468fba0f743032a3b032bbf84621b2a67d583e60d451f20846",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9243842493742704,
+    "probabilities": [
+      0.026923703029751778,
+      0.02176837809383869,
+      0.9513079524040222
+    ]
+  },
+  {
+    "id": "275b7e25829c9048cc001683cf67b969f95a381cdb9ff272100979343d55bbf7",
+    "truth": "positive",
+    "label": "neutral",
+    "score": 0.2208490832708776,
+    "probabilities": [
+      0.007238237652927637,
+      0.7646743655204773,
+      0.22808732092380524
+    ]
+  },
+  {
+    "id": "286901187fbb16cc255b134ed2a034c5ce1440d89e8daf860c2814b5722a3012",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9556250674650073,
+    "probabilities": [
+      0.9669837355613708,
+      0.02165754698216915,
+      0.011358668096363544
+    ]
+  },
+  {
+    "id": "294e5b6dc6f36df7f1fe7df542f9d49fe4811aed81f955839ae2966def74c7c5",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.21615944802761078,
+    "probabilities": [
+      0.008101895451545715,
+      0.7676367163658142,
+      0.2242613434791565
+    ]
+  },
+  {
+    "id": "29631bd2ec04445aa1fe3790dbe97f745ddf506a8756d5442996be3fad9d0a69",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.012309219688177109,
+    "probabilities": [
+      0.020370326936244965,
+      0.9469501376152039,
+      0.03267954662442207
+    ]
+  },
+  {
+    "id": "29ee7b690ec82864350d7c98607a00ef7eb3b2fe00346673be3994dc03555010",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9506514528766274,
+    "probabilities": [
+      0.9662134051322937,
+      0.01822461187839508,
+      0.015561952255666256
+    ]
+  },
+  {
+    "id": "2a7a62e82413abe9d336b49d35488a905d84e1da213503384a62031d83dc1ad5",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9237646907567978,
+    "probabilities": [
+      0.014653459191322327,
+      0.046928346157073975,
+      0.9384181499481201
+    ]
+  },
+  {
+    "id": "2a84e395893e8cbfea024e70ee9d17fafa702b6a6f83a7edde748f6b6925fc25",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9622317189350724,
+    "probabilities": [
+      0.9753136038780212,
+      0.011604523286223412,
+      0.013081884942948818
+    ]
+  },
+  {
+    "id": "2a9871f7b3929900c6e6911798a004873bd65de46f26b61fd2a587c941a8b49e",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9638781622052193,
+    "probabilities": [
+      0.9772701263427734,
+      0.009337964467704296,
+      0.013391964137554169
+    ]
+  },
+  {
+    "id": "2ace99cd00fb0e77d9824002a871e909969f950f8c38e4e57ef3a516ad3dc676",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9675767486914992,
+    "probabilities": [
+      0.9752647280693054,
+      0.017047274857759476,
+      0.007687979377806187
+    ]
+  },
+  {
+    "id": "2b669ce3ae9b5a9be73bd968dd261f3317d7ff5ce6134c4f17d44d2220d14fb1",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9238335266709328,
+    "probabilities": [
+      0.02730628103017807,
+      0.02155381068587303,
+      0.9511398077011108
+    ]
+  },
+  {
+    "id": "2bc7e6e09ec882088818b37c2b77bbd963d383930fc620e85b20a3c48f4c7b43",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9665088928304613,
+    "probabilities": [
+      0.9734932780265808,
+      0.019522324204444885,
+      0.006984385196119547
+    ]
+  },
+  {
+    "id": "2bf406fc90c3e2c7adf23c7ebd68f29974b1002c4aed16b5b43f34ccc9c8d2f9",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9350924324244261,
+    "probabilities": [
+      0.01920636184513569,
+      0.02649485319852829,
+      0.9542987942695618
+    ]
+  },
+  {
+    "id": "2bf5d650d2d706678fcf73068fdb157adc4c41a6b39bade335c961f74e6a3a11",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9586339620873332,
+    "probabilities": [
+      0.9717603921890259,
+      0.015113155357539654,
+      0.013126430101692677
+    ]
+  },
+  {
+    "id": "2c01f7768b2ae997bfb8ba78ec7b86c8a48ddf5b6555cb37eb6c7e27e1617511",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.10654220450669527,
+    "probabilities": [
+      0.010250705294311047,
+      0.872956395149231,
+      0.11679290980100632
+    ]
+  },
+  {
+    "id": "2c36be181f40fad3c0b304d308f60833da1ae004edb6ea3e4ae2ed31b519606c",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9341202788054943,
+    "probabilities": [
+      0.023396451026201248,
+      0.01908668875694275,
+      0.9575167298316956
+    ]
+  },
+  {
+    "id": "2d14facbcab563947ea26007fde137efc1900ad15c820c34836a87dd917178a4",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.028199530206620693,
+    "probabilities": [
+      0.012522825039923191,
+      0.9467547535896301,
+      0.040722355246543884
+    ]
+  },
+  {
+    "id": "2da4f1809623ebdac5faa013aa5d5454067d89cc141a7856e2575d9ada4720cf",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9651757264509797,
+    "probabilities": [
+      0.9750217199325562,
+      0.015132347121834755,
+      0.009845993481576443
+    ]
+  },
+  {
+    "id": "2f4a398b7e332b7e6b37ec87044e1b1c01acca8612b748e4d8c5f42912afe691",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.11669216305017471,
+    "probabilities": [
+      0.14296528697013855,
+      0.8307616114616394,
+      0.026273123919963837
+    ]
+  },
+  {
+    "id": "2f5501cae29c04bfccfc118297061d8c374714cf40f075c405af7b20378ff6e6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.16035711951553822,
+    "probabilities": [
+      0.008414251729846,
+      0.8228143453598022,
+      0.16877137124538422
+    ]
+  },
+  {
+    "id": "2f5c2928a5548361fc32091345aed8303389fdc02c4b33bfc366b55c38e9b4b6",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9368499992415309,
+    "probabilities": [
+      0.014964652247726917,
+      0.03322064131498337,
+      0.9518146514892578
+    ]
+  },
+  {
+    "id": "2f7d8f8a57e9df7a6b31483fbd3a0d9b7abfe7c6e0df6042a2ab9fbe8291e157",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9390281941741705,
+    "probabilities": [
+      0.017059454694390297,
+      0.02685280703008175,
+      0.9560876488685608
+    ]
+  },
+  {
+    "id": "2fd0fb1e4110abe592c44db75f7fb924bb575a358ddf2c6755dbd8efde80a45d",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.7862068563699722,
+    "probabilities": [
+      0.8841904401779175,
+      0.01782594434916973,
+      0.09798358380794525
+    ]
+  },
+  {
+    "id": "3095b37d09b7039930c7017f0393cfb475c23735d3bd90afc37397fdc940aef2",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.15650123450905085,
+    "probabilities": [
+      0.008312775753438473,
+      0.8268731832504272,
+      0.16481401026248932
+    ]
+  },
+  {
+    "id": "309cb449b4297c531dd745be9396ceda2c14703c7992c09b0ac86f7f4ed98271",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9238009452819824,
+    "probabilities": [
+      0.020764470100402832,
+      0.03467011824250221,
+      0.9445654153823853
+    ]
+  },
+  {
+    "id": "3104290f816bca2dded4ce1a5f42f2255d9547216676bd721f185510b67ea69f",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9338524928316474,
+    "probabilities": [
+      0.015483141876757145,
+      0.035181205719709396,
+      0.9493356347084045
+    ]
+  },
+  {
+    "id": "31448f481bb97e132d5eb1340090548a3e0f7d4219c569fa0c5d70a62fe60c55",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.06809773109853268,
+    "probabilities": [
+      0.0901818722486496,
+      0.8877339959144592,
+      0.02208414115011692
+    ]
+  },
+  {
+    "id": "32710aafb2ef5dc55c780f71af8aadf7e5624a757333c1ef6c863b749090a691",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.1293141357600689,
+    "probabilities": [
+      0.02088092640042305,
+      0.8289240002632141,
+      0.15019506216049194
+    ]
+  },
+  {
+    "id": "329df1b0f5ed13f7640634a2ac029ea26e498735a8dcc9a739318d4067c13bfd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.026605872437357903,
+    "probabilities": [
+      0.05132885277271271,
+      0.9239482283592224,
+      0.024722980335354805
+    ]
+  },
+  {
+    "id": "330153186996514ab8affe062055f57c5203fca4b20178ebc7423de265de7286",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9354906901717186,
+    "probabilities": [
+      0.017757393419742584,
+      0.028994500637054443,
+      0.9532480835914612
+    ]
+  },
+  {
+    "id": "330fe218ede38481f259db34671fad3a804fb8eeefd5cea1e9490a55e05a9862",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0512416185811162,
+    "probabilities": [
+      0.014428677968680859,
+      0.9199010729789734,
+      0.06567029654979706
+    ]
+  },
+  {
+    "id": "336ebc9d3d18f3b32e53ef2758ee6a3dd7f3c7a0ad699776ea17f3ac175fb96b",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9415420666337013,
+    "probabilities": [
+      0.016265831887722015,
+      0.02592627704143524,
+      0.9578078985214233
+    ]
+  },
+  {
+    "id": "34f283cadafeec8550cdb756fcd1793812506fe6f3f22bf86ab30fc93927cecd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08736678771674633,
+    "probabilities": [
+      0.010870346799492836,
+      0.890892505645752,
+      0.09823713451623917
+    ]
+  },
+  {
+    "id": "350c0bacc596f43ae93ebdd9fee352422aaa71b9a4e21ab708fc562aeb864741",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.037306174635887146,
+    "probabilities": [
+      0.01778816431760788,
+      0.9271174669265747,
+      0.055094338953495026
+    ]
+  },
+  {
+    "id": "3568d36d47839f80d93cd0f3704f88c62ab4ff851377b35fd136e32b76f07a74",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9418761795386672,
+    "probabilities": [
+      0.015584700740873814,
+      0.026954371482133865,
+      0.957460880279541
+    ]
+  },
+  {
+    "id": "3571ee5890d38074f4d4b60cd5e211cc404573a5f5492e5e577b7ca075e8d70c",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9275998752564192,
+    "probabilities": [
+      0.022162707522511482,
+      0.028074752539396286,
+      0.9497625827789307
+    ]
+  },
+  {
+    "id": "3580b8c1e9fab10041c79a741d9822b22469f2a6a574b818d6a6e7721b83f97e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.09207338839769363,
+    "probabilities": [
+      0.016649462282657623,
+      0.8746276497840881,
+      0.10872285068035126
+    ]
+  },
+  {
+    "id": "35a98820658b45add37225cd8157c8b0c0a14c8ab8725b5d1312277d633a9937",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.024563027545809746,
+    "probabilities": [
+      0.018780020996928215,
+      0.9378769993782043,
+      0.04334304854273796
+    ]
+  },
+  {
+    "id": "3636bafcdca93c2a3f2fc5d36d938fa97ea424ff117a7e979cf8117f52b2f442",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9599188845604658,
+    "probabilities": [
+      0.9705180525779724,
+      0.018882786855101585,
+      0.0105991680175066
+    ]
+  },
+  {
+    "id": "38d435225e052b68914109c7258ea81053fc6d6582805f470f5af72774c3983d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.027644123882055283,
+    "probabilities": [
+      0.022301793098449707,
+      0.9277522563934326,
+      0.04994591698050499
+    ]
+  },
+  {
+    "id": "3909ccd2c19bc7b478588e6a0abe61b041a566fcb9e05d94a4f35cd203edecb3",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9622025755234063,
+    "probabilities": [
+      0.9695492386817932,
+      0.023104054853320122,
+      0.007346663158386946
+    ]
+  },
+  {
+    "id": "398e80169ae5fddc0d57327f609c4153a1124b658bed47594ef8ad284539b007",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.015139831230044365,
+    "probabilities": [
+      0.017948398366570473,
+      0.9489633440971375,
+      0.03308822959661484
+    ]
+  },
+  {
+    "id": "3b151ee7afcc75af823add67d45726448b3648b5c7c2f81121266a295cf51639",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.18572079669684172,
+    "probabilities": [
+      0.008216624148190022,
+      0.7978459596633911,
+      0.19393742084503174
+    ]
+  },
+  {
+    "id": "3bd2ca62420e6f6f1d61160aa7477a870c417febad42c975a293e76b7c5cde16",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8695069244131446,
+    "probabilities": [
+      0.009792954660952091,
+      0.1109071671962738,
+      0.8792998790740967
+    ]
+  },
+  {
+    "id": "3cc25d1a839bef5c25f73ec816afa9a1d95ee371d93a12aec8d56d4b878c2b04",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9340898003429174,
+    "probabilities": [
+      0.02160135842859745,
+      0.02270740643143654,
+      0.9556911587715149
+    ]
+  },
+  {
+    "id": "3d38e9f2627d810d3ad7a2baff143ff41eacb4671a843c9ba6739e1ac256d570",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.027498353272676468,
+    "probabilities": [
+      0.07338140159845352,
+      0.8807355761528015,
+      0.045883048325777054
+    ]
+  },
+  {
+    "id": "3dbbe2a54e8a8725d8b90c4597abc9f130d0bb88eb132188248461ec014083ea",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9610338611528277,
+    "probabilities": [
+      0.9731701612472534,
+      0.014693581499159336,
+      0.012136300094425678
+    ]
+  },
+  {
+    "id": "3e18a7e19b6c804bc7cef1656a6ddc9c04f23f81c9d06439b2e6f65f90da874b",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.968593561090529,
+    "probabilities": [
+      0.9756363034248352,
+      0.017320971935987473,
+      0.00704274233430624
+    ]
+  },
+  {
+    "id": "3eab6a2f5343145bc3893d0aaa4e27aca72b5db403728ed46a93d565304345b0",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9670544844120741,
+    "probabilities": [
+      0.976264476776123,
+      0.014525641687214375,
+      0.009209992364048958
+    ]
+  },
+  {
+    "id": "3f16b1c4b8c5375a483627dcfe82f7996f3807de4acc45c8ad30d642e9aa8871",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.044503032229840755,
+    "probabilities": [
+      0.015498288907110691,
+      0.9245004057884216,
+      0.06000132113695145
+    ]
+  },
+  {
+    "id": "3f7df9bff7d67552a2a5cb5893a56ff1145d60b844d556b9e5d06465ff0e2290",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03374800365418196,
+    "probabilities": [
+      0.01295118872076273,
+      0.9403496384620667,
+      0.04669919237494469
+    ]
+  },
+  {
+    "id": "3f8ce2476280a44829aab9969289fbdaf6514950c869e6fd944c75330935e8b6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.017417490482330322,
+    "probabilities": [
+      0.02208574488759041,
+      0.9384109973907471,
+      0.03950323536992073
+    ]
+  },
+  {
+    "id": "416fdd432b444e1c91bf7d702241aa6d27f6c4c62bebb4828c56fcf45fa0807a",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9315584227442741,
+    "probabilities": [
+      0.02210516482591629,
+      0.024231303483247757,
+      0.9536635875701904
+    ]
+  },
+  {
+    "id": "41d8b6eff129ce55a73bb565d9e937535c834b07a59749b7357d0f83df8144cc",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9363026199862361,
+    "probabilities": [
+      0.014093619771301746,
+      0.03551020845770836,
+      0.9503962397575378
+    ]
+  },
+  {
+    "id": "42bfbcdca81bdf08276847c53684d085eabf37d7b18aea69fad5adae721f8862",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 6.912089884281158e-05,
+    "probabilities": [
+      0.022027621045708656,
+      0.9558756351470947,
+      0.022096741944551468
+    ]
+  },
+  {
+    "id": "4307a381c3d8d6b270eed5398e33a2f56645912ded20f032b6f24a900bc9b129",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9274133583530784,
+    "probabilities": [
+      0.012126014567911625,
+      0.04833459481596947,
+      0.93953937292099
+    ]
+  },
+  {
+    "id": "4460b6ec306e7cf90892db2a8392ef2408c7e811b3066c7cd6de1b436bb4277e",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9678355632349849,
+    "probabilities": [
+      0.9768427610397339,
+      0.014150007627904415,
+      0.009007197804749012
+    ]
+  },
+  {
+    "id": "44cfb446a3e2bcffc0dba658a7afba2324cc3ba316f952232e28a6ab19590833",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.02073224075138569,
+    "probabilities": [
+      0.040576498955488205,
+      0.9395793080329895,
+      0.019844258204102516
+    ]
+  },
+  {
+    "id": "45081a59015c4251f684ae3de0dce44c153784932037db643634de5fa5525f48",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.5837275832891464,
+    "probabilities": [
+      0.19938494265079498,
+      0.017502563074231148,
+      0.7831125259399414
+    ]
+  },
+  {
+    "id": "45aa84b66b0c7ab292ce266fa09d9ba4efb54d87ac8e2818c4407500b2331240",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8219149559736252,
+    "probabilities": [
+      0.08012808859348297,
+      0.017828917130827904,
+      0.9020430445671082
+    ]
+  },
+  {
+    "id": "462e491142d2d7ce8dd4cf6b83dabb93e052d04610de312c73aa7d63002228cd",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9614627780392766,
+    "probabilities": [
+      0.9729645252227783,
+      0.01553365495055914,
+      0.01150174718350172
+    ]
+  },
+  {
+    "id": "46be81261760ad6c68ca8046a2feee5e08d49feef6778f4237a29aac92c82f91",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08608569763600826,
+    "probabilities": [
+      0.021772051230072975,
+      0.8703702092170715,
+      0.10785774886608124
+    ]
+  },
+  {
+    "id": "47e57de30f31ed4328a6c68b80e8784af6e13b3d0456ee396a0e8206a8269387",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9293062016367912,
+    "probabilities": [
+      0.02230704575777054,
+      0.026079636067152023,
+      0.9516132473945618
+    ]
+  },
+  {
+    "id": "48566c8bf9e28b79836f8f8bfcd35d12e2d508c7da366575acbce99493c6d54d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.1336597539484501,
+    "probabilities": [
+      0.008585270494222641,
+      0.8491697311401367,
+      0.14224502444267273
+    ]
+  },
+  {
+    "id": "485714efe9a22f04ea59b0a3d1a7a31855d0e12ff4bbdd1bffc99e41136e8b0f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.10613189544528723,
+    "probabilities": [
+      0.008449600078165531,
+      0.8769689798355103,
+      0.11458149552345276
+    ]
+  },
+  {
+    "id": "485752979adc248294615bccc18daf5be5d424549c7137e4f1820db8fb375e85",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.005223264917731285,
+    "probabilities": [
+      0.020884715020656586,
+      0.9530073404312134,
+      0.02610797993838787
+    ]
+  },
+  {
+    "id": "485a56a754650bcf47166ffbcf0bdff85d3f489f53236da6008e2e4aeb913d1b",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9666033331304789,
+    "probabilities": [
+      0.9755157232284546,
+      0.015571920201182365,
+      0.008912390097975731
+    ]
+  },
+  {
+    "id": "489181853e7102ca4be177f0ce93fc18c18320cb31f3fb5287046372924179a1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.001277979463338852,
+    "probabilities": [
+      0.026079105213284492,
+      0.9465637803077698,
+      0.027357084676623344
+    ]
+  },
+  {
+    "id": "49edaa65c20c0046f6b68d9ae65a8f2a422e93aef1e670df66281a5689f0d1e2",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.014290930703282356,
+    "probabilities": [
+      0.02128145657479763,
+      0.9431461691856384,
+      0.03557238727807999
+    ]
+  },
+  {
+    "id": "4ab457677301656af6a106245dbd71d162f1373eeeca54a1b3e9f876de69f2be",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.07523629441857338,
+    "probabilities": [
+      0.012516412883996964,
+      0.899730920791626,
+      0.08775270730257034
+    ]
+  },
+  {
+    "id": "4af0f5878afc1785f2ad943e1c4b62d53a01c5ac6ed776546b79c4f69b767235",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9667299408465624,
+    "probabilities": [
+      0.976175844669342,
+      0.014378196559846401,
+      0.009445903822779655
+    ]
+  },
+  {
+    "id": "4b082190b9a66e686de29added60f6436bf5ef00b26acac8566c7ec0fc3f806a",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9684137776494026,
+    "probabilities": [
+      0.9759048819541931,
+      0.016604112461209297,
+      0.007491104304790497
+    ]
+  },
+  {
+    "id": "4b23f63db545adf4cc2e950f3db69dd7c37b86b6eb906db4a47c140a9721340b",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.06468244828283787,
+    "probabilities": [
+      0.022380491718649864,
+      0.8905565142631531,
+      0.08706294000148773
+    ]
+  },
+  {
+    "id": "4bce95385b7f819e5d42e9568b080ef70a29a88fd336fc3277dd856b69bc5dc7",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9310963395982981,
+    "probabilities": [
+      0.02176896296441555,
+      0.02536574751138687,
+      0.9528653025627136
+    ]
+  },
+  {
+    "id": "4c53b3db8cd7273de453e7b0f856f36cac258beef25e786fc55dfb7666af35b1",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9203720781952143,
+    "probabilities": [
+      0.008080175146460533,
+      0.06346753239631653,
+      0.9284522533416748
+    ]
+  },
+  {
+    "id": "4f738503e8eddb608c1f0f704b7ee2c59e00d7c93baada0141f90071fae5eedf",
+    "truth": "neutral",
+    "label": "negative",
+    "score": -0.8428203240036964,
+    "probabilities": [
+      0.8539496660232544,
+      0.13492095470428467,
+      0.011129342019557953
+    ]
+  },
+  {
+    "id": "5028341701c15935a67f985f2a0e6568b854fb5ea1da6957987fb043199023d8",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08746826741844416,
+    "probabilities": [
+      0.010200954042375088,
+      0.8921297788619995,
+      0.09766922146081924
+    ]
+  },
+  {
+    "id": "5064fce8ad1b1f0e70590e371ef750fac0b20d417c057de1b455c928639cfddb",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.045944737270474434,
+    "probabilities": [
+      0.0721953809261322,
+      0.9015539884567261,
+      0.026250643655657768
+    ]
+  },
+  {
+    "id": "50d4fc918e35278d58f0e761ca4c8b97be7eebae0e5965db8ba1a7aa5bffcadb",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0442894184961915,
+    "probabilities": [
+      0.011851447634398937,
+      0.9320076704025269,
+      0.05614086613059044
+    ]
+  },
+  {
+    "id": "52ff03c461ed92b394e349498614f6611ba51589e277c8dc7dbd1d8e35fc8c6f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.15661532199010253,
+    "probabilities": [
+      0.0077125378884375095,
+      0.8279595375061035,
+      0.16432785987854004
+    ]
+  },
+  {
+    "id": "53504d98db3794bc2f9f701795deb85748006173ad2c90e86bb70df74c97f56f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.029815436340868473,
+    "probabilities": [
+      0.011703348718583584,
+      0.946777880191803,
+      0.04151878505945206
+    ]
+  },
+  {
+    "id": "536441f446d46b99400483b6ac8f21401b8bca93b0cf93e0131b05d260574443",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04704859293997288,
+    "probabilities": [
+      0.011782163754105568,
+      0.929387092590332,
+      0.058830756694078445
+    ]
+  },
+  {
+    "id": "55a9e7fb9960c70b72f995590bc19efbae0e55f9e44f9772ede718a242c42d27",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9307040851563215,
+    "probabilities": [
+      0.01114317961037159,
+      0.04700952768325806,
+      0.9418472647666931
+    ]
+  },
+  {
+    "id": "562e5e83d00f2ddc171aacfbe5fc4b187f125246495db7d26ce363c9f0fc2fbe",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9284338532015681,
+    "probabilities": [
+      0.010110837407410145,
+      0.05134442076086998,
+      0.9385446906089783
+    ]
+  },
+  {
+    "id": "56f19dc0fe7770bca2af713e3cfbc75d7cf6e5a1091ed5189f2d51610db4e22f",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9331438150256872,
+    "probabilities": [
+      0.02072385884821415,
+      0.02540852688252926,
+      0.9538676738739014
+    ]
+  },
+  {
+    "id": "5710e8c75c35965e5f0b34441301cfc3d37fca095ac3787f3554dcd9fcbb0855",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.02461451292037964,
+    "probabilities": [
+      0.01688006892800331,
+      0.9416253566741943,
+      0.04149458184838295
+    ]
+  },
+  {
+    "id": "57c45479c487cc6778c2d6df6c82159a5c30b360abff9e5dc2fb5c079446ac6a",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9034060090780258,
+    "probabilities": [
+      0.03587163984775543,
+      0.0248506348580122,
+      0.9392776489257812
+    ]
+  },
+  {
+    "id": "58152a479fe29f13191d57bb0fac3d68fb60bf48a5e6d8ecf76e34ec9f6f4dc2",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04320314712822437,
+    "probabilities": [
+      0.022903187200427055,
+      0.9109904766082764,
+      0.06610633432865143
+    ]
+  },
+  {
+    "id": "584241505dd35301073d8d2f5d10ba9ca78317764138de98d24b0c6f33e1135b",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8442153106443584,
+    "probabilities": [
+      0.006291412282735109,
+      0.14320187270641327,
+      0.8505067229270935
+    ]
+  },
+  {
+    "id": "5856da150acbc5bb534c9eea159a172dec08d3b0266fd39d5611e804ea8a4b72",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.6789127895608544,
+    "probabilities": [
+      0.0075441887602210045,
+      0.30599886178970337,
+      0.6864569783210754
+    ]
+  },
+  {
+    "id": "58d0dd8e117add17473df95947d606f955155e206e8c4a1c01c820378f13253f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04376010596752167,
+    "probabilities": [
+      0.010542433708906174,
+      0.9351550340652466,
+      0.05430253967642784
+    ]
+  },
+  {
+    "id": "59b3a2ae435467cab7d2dc7fca489d830b792e599c20aa025d37d05c92341cc4",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9488669577986002,
+    "probabilities": [
+      0.9657704830169678,
+      0.017325956374406815,
+      0.016903525218367577
+    ]
+  },
+  {
+    "id": "5ad88739f55c4174a4235e3c0a652721498f81e57ffbfdfc1a36b2fa2fcc8c5a",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9323090855032206,
+    "probabilities": [
+      0.020454710349440575,
+      0.026781562715768814,
+      0.9527637958526611
+    ]
+  },
+  {
+    "id": "5d26ee9fd0296b0739758525fe48d124a5ca94f5969d0e8d8da849e44cf75b43",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.024435168132185936,
+    "probabilities": [
+      0.017747586593031883,
+      0.9400696158409119,
+      0.04218275472521782
+    ]
+  },
+  {
+    "id": "5daebfe8e98e5d3c1b60c149f8f5017d6a8c093a7ed1794533472e6fee71ac7f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04930160101503134,
+    "probabilities": [
+      0.01212580967694521,
+      0.926446795463562,
+      0.06142741069197655
+    ]
+  },
+  {
+    "id": "5de19b4bbc1b6ed4ee3a5584fab3ff2b1f53995deb0f09f2bbd505acc82eadfa",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03480740450322628,
+    "probabilities": [
+      0.01535516045987606,
+      0.9344822764396667,
+      0.05016256496310234
+    ]
+  },
+  {
+    "id": "5dfb03631457c15e74fbab693fae59b8f30f9a8b397be30a3d7543946ee91a7b",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9225830584764481,
+    "probabilities": [
+      0.017458781599998474,
+      0.04249945282936096,
+      0.9400418400764465
+    ]
+  },
+  {
+    "id": "5eb0e300c95aec90cb1bd9d1499cfd7ebd638618dc2fc9908e8c4eb20f089871",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9220322873443365,
+    "probabilities": [
+      0.027332613244652748,
+      0.023302480578422546,
+      0.9493649005889893
+    ]
+  },
+  {
+    "id": "5f5378bc680f8fa1866da261c6298fe0e0ffd912fc506448b1f2b9f5805d0966",
+    "truth": "neutral",
+    "label": "negative",
+    "score": -0.356047160923481,
+    "probabilities": [
+      0.4541756510734558,
+      0.44769585132598877,
+      0.09812849014997482
+    ]
+  },
+  {
+    "id": "5f888774f730c8e633274c3ed9798a917955c3640cce3a5cd72e908cf850c2f2",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.09254504274576902,
+    "probabilities": [
+      0.010861900635063648,
+      0.8857311010360718,
+      0.10340694338083267
+    ]
+  },
+  {
+    "id": "5fb064874398ae33758d56079ca6de5cae7b136b09ac122efb672686de2e9fff",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.33323539793491364,
+    "probabilities": [
+      0.00974331796169281,
+      0.6472780108451843,
+      0.34297871589660645
+    ]
+  },
+  {
+    "id": "614254dfa7a2eb0898f41d8e763be8f67dfbed9759e0815404543fe86affb735",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.06835250835865736,
+    "probabilities": [
+      0.009217430837452412,
+      0.9132126569747925,
+      0.07756993919610977
+    ]
+  },
+  {
+    "id": "61acfcc9f431db4ba0804a33e31c5fb51b509814d0cbb7909d27237abe03efcd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.06489527877420187,
+    "probabilities": [
+      0.00935563538223505,
+      0.9163934588432312,
+      0.07425091415643692
+    ]
+  },
+  {
+    "id": "61cda11197b6cf66a5281f550a1810fc567d39b5d9367afa344861c83b0b6ab4",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.16265124175697565,
+    "probabilities": [
+      0.008943228982388973,
+      0.8194622993469238,
+      0.17159447073936462
+    ]
+  },
+  {
+    "id": "6211c84162fd39d8f6498dc5c92d7bfb869f4a803dc64eb7af2b1a35e4c8aa17",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0032078810036182404,
+    "probabilities": [
+      0.02841390296816826,
+      0.9399642944335938,
+      0.0316217839717865
+    ]
+  },
+  {
+    "id": "625d99ce5c3a5432a77b46deac0909899ad8e84f1b6916ddeb88f5d0654c4bed",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9233073424547911,
+    "probabilities": [
+      0.026913421228528023,
+      0.022865859791636467,
+      0.9502207636833191
+    ]
+  },
+  {
+    "id": "629388b2aee7ee88253e4bccc1b8e1518cdc628cbeb3fe60da6c829fbe4e77ee",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0018975939601659775,
+    "probabilities": [
+      0.024421652778983116,
+      0.9492590427398682,
+      0.026319246739149094
+    ]
+  },
+  {
+    "id": "62f3573946a405999c6b9ee6e8499e23c4ad0b6f4a9e6fd689adf58397358996",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9323795009404421,
+    "probabilities": [
+      0.021942658349871635,
+      0.02373514138162136,
+      0.9543221592903137
+    ]
+  },
+  {
+    "id": "63115c267243bf57ff2f353b921597e1b088df336250e1b08e4dbb4e0187e368",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03640706092119217,
+    "probabilities": [
+      0.01409105584025383,
+      0.9354107975959778,
+      0.050498116761446
+    ]
+  },
+  {
+    "id": "633ee45cb7704c98d83d3f0a4ac39f44c023b7f335d6ebd7855d2d8cdc09c51e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.1183311091735959,
+    "probabilities": [
+      0.008809785358607769,
+      0.8640493154525757,
+      0.12714089453220367
+    ]
+  },
+  {
+    "id": "648153281c7fdef112899c919000e55f53bd61c919fa3955fb3dd0b5cd95a5fa",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9364479128271341,
+    "probabilities": [
+      0.021208113059401512,
+      0.021135900169610977,
+      0.9576560258865356
+    ]
+  },
+  {
+    "id": "655c274a3234f294f8e6a4ab823f3bcc5a653aabdd6531d09b964b602881df29",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.006542883813381195,
+    "probabilities": [
+      0.02693162113428116,
+      0.9526796340942383,
+      0.020388737320899963
+    ]
+  },
+  {
+    "id": "65e4e3ba5c1713bb46484ac93f30822d196efdea8f03da467e0555510aa25851",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9658268913626671,
+    "probabilities": [
+      0.9760549068450928,
+      0.013717083260416985,
+      0.01022801548242569
+    ]
+  },
+  {
+    "id": "66dcdf9c36d560c5578f6ee4c8e614126afe103d9bdc084764239e754c6e8e72",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.009327664971351624,
+    "probabilities": [
+      0.028651654720306396,
+      0.9520243406295776,
+      0.019323989748954773
+    ]
+  },
+  {
+    "id": "6757f5794619c5fa0a966d3924dc490861d8120dc16bf7f67a499b0a18bd3db1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.024439490400254726,
+    "probabilities": [
+      0.013938535936176777,
+      0.9476835131645203,
+      0.0383780263364315
+    ]
+  },
+  {
+    "id": "6823b997d3c1a7fd6424db2ed07efafd0117e19a40092ffe50a9f7531feb4c11",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9634713400155306,
+    "probabilities": [
+      0.9735915660858154,
+      0.016288286074995995,
+      0.010120226070284843
+    ]
+  },
+  {
+    "id": "685ce026a3e04560dd959026be2aed1112fc172d798ac002c9714948f9076d13",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9256886206567287,
+    "probabilities": [
+      0.027006927877664566,
+      0.020297477021813393,
+      0.9526955485343933
+    ]
+  },
+  {
+    "id": "69e8d8fcc334c941514b2c3bda44eca43af96fdf706dd170c9b9733f663b72bc",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.09631286561489105,
+    "probabilities": [
+      0.017483800649642944,
+      0.8687195777893066,
+      0.113796666264534
+    ]
+  },
+  {
+    "id": "6a755027ed3862b7f83fa166b6834bb50161750577b0c9c98b5e9448d6c78cd5",
+    "truth": "neutral",
+    "label": "positive",
+    "score": 0.8540594847872853,
+    "probabilities": [
+      0.008855256251990795,
+      0.12823006510734558,
+      0.8629147410392761
+    ]
+  },
+  {
+    "id": "6c06bb3b279aca50c15a4c9a47a52b1d629f7d8ad57da21c24e5f41d9844b0a3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05668148212134838,
+    "probabilities": [
+      0.016017133370041847,
+      0.9112842082977295,
+      0.07269861549139023
+    ]
+  },
+  {
+    "id": "6c0911d5c170ae2dd92d1f6bfc14493297bc6c3230202f3d88648132a8160cd7",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.04755692929029465,
+    "probabilities": [
+      0.06440705806016922,
+      0.918742835521698,
+      0.016850128769874573
+    ]
+  },
+  {
+    "id": "6c84606b7576ec0b9bcddb0eb5b56836dbe75aa2857cf763fe350f2034fc22d4",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.00048459693789482117,
+    "probabilities": [
+      0.03832492232322693,
+      0.9228655695915222,
+      0.03880951926112175
+    ]
+  },
+  {
+    "id": "6d53b399fabfd5daea9afb69c5b8c6ae6a6d2d8515f3a0ae2ec1b4d761639b78",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9428595239296556,
+    "probabilities": [
+      0.013026720844209194,
+      0.03108702227473259,
+      0.9558862447738647
+    ]
+  },
+  {
+    "id": "6d66829a8eaade795a620fcb2cc9b285abf30387adb7c27c4b2b9eb862f3e7b3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05665886960923672,
+    "probabilities": [
+      0.010136814787983894,
+      0.9230674505233765,
+      0.06679568439722061
+    ]
+  },
+  {
+    "id": "6e1df6bd7690b11cd0f97c628def11801e0622c3a9c145188d74b43067f90e83",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9292337857186794,
+    "probabilities": [
+      0.022621694952249527,
+      0.02552277036011219,
+      0.951855480670929
+    ]
+  },
+  {
+    "id": "6e6b492cd8af6b2f0a7c3a039d67409e41f5ee36e2700abb3ec796363a93a79e",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9697080361656845,
+    "probabilities": [
+      0.976978600025177,
+      0.01575087010860443,
+      0.00727056385949254
+    ]
+  },
+  {
+    "id": "6edf187543fc83a490357d9d64e8c58331d02b77294c4a537cb6c7a4b81ea8fa",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.32175552658736706,
+    "probabilities": [
+      0.34678247570991516,
+      0.6281905770301819,
+      0.025026949122548103
+    ]
+  },
+  {
+    "id": "712fbc5d7e0fc24045f929c5c65ed4db7f5fad6abe9776ae11bcf43c74113317",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.876838743686676,
+    "probabilities": [
+      0.05237621068954468,
+      0.01840878836810589,
+      0.9292149543762207
+    ]
+  },
+  {
+    "id": "714a8b1f21297a75176894ea0a56302cd7526c59739fc659dc1077ee2fe58c27",
+    "truth": "neutral",
+    "label": "positive",
+    "score": 0.5082451421767473,
+    "probabilities": [
+      0.015712706372141838,
+      0.46032941341400146,
+      0.5239578485488892
+    ]
+  },
+  {
+    "id": "717f744d3a0f3e77386ddf5d1e03849ed85b9d59759ae6c9e1fd4becc77650c3",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9321500360965729,
+    "probabilities": [
+      0.023681849241256714,
+      0.020486265420913696,
+      0.9558318853378296
+    ]
+  },
+  {
+    "id": "722d04ba223f9675195d97f6b4e48dac25b0b4a481420cf9c7bc2f3a10f5f4da",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9237459804862738,
+    "probabilities": [
+      0.026064643636345863,
+      0.02412467449903488,
+      0.9498106241226196
+    ]
+  },
+  {
+    "id": "7278d3bc19916630ef29a28b4642338e15e941aa7f19ca0031f320cfddf16376",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.967574673704803,
+    "probabilities": [
+      0.9750915169715881,
+      0.01739158295094967,
+      0.007516843266785145
+    ]
+  },
+  {
+    "id": "7376dd1d4b8aeef33ba35783422b4f9e3c179a9fad6e2fc0095c8c857fb84d0b",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9694093484431505,
+    "probabilities": [
+      0.9764088988304138,
+      0.016591573134064674,
+      0.006999550387263298
+    ]
+  },
+  {
+    "id": "7446f93b876ebdd0b6921c960e529549d2933d787fb751bb4813eaba157ac0fb",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04979283548891544,
+    "probabilities": [
+      0.01314540021121502,
+      0.9239163398742676,
+      0.06293823570013046
+    ]
+  },
+  {
+    "id": "747ee786089c796831e841f678a8d859dae2b9f4e1103771b1f98b26166a776d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.019177605397999287,
+    "probabilities": [
+      0.014290097169578075,
+      0.9522421956062317,
+      0.03346770256757736
+    ]
+  },
+  {
+    "id": "761df3eb705d08bb2d900ceaee9785b570eacf3a051fd52b960546201e242512",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.07583584636449814,
+    "probabilities": [
+      0.009436018764972687,
+      0.9052921533584595,
+      0.08527186512947083
+    ]
+  },
+  {
+    "id": "775c0b045f9bd10c6fa089dbbe277ee03fb5e09929b917b9c97639c7f786d552",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04805267136543989,
+    "probabilities": [
+      0.013953574933111668,
+      0.9240401983261108,
+      0.06200624629855156
+    ]
+  },
+  {
+    "id": "79797411d96849d341bf10343d2ee6de469f194091f94230a92a6e952e46414e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.027166076004505157,
+    "probabilities": [
+      0.014109749346971512,
+      0.9446144700050354,
+      0.04127582535147667
+    ]
+  },
+  {
+    "id": "79b9dd7e0a74deffb0c1b39c4533cd1ea6dae25f206470098ffe75a963df6b5f",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9348874986171722,
+    "probabilities": [
+      0.020242303609848022,
+      0.0246279276907444,
+      0.9551298022270203
+    ]
+  },
+  {
+    "id": "7b096d5d9c62e1707c9d0291750fc8c42118832a18c9ed7dc6a8e6940e9f84eb",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04209757689386606,
+    "probabilities": [
+      0.012661765329539776,
+      0.9325789213180542,
+      0.05475934222340584
+    ]
+  },
+  {
+    "id": "7beab2be0f6c98e09ba591d643bec92b5a2aa7b819681199115e9d724b33c5b3",
+    "truth": "neutral",
+    "label": "negative",
+    "score": -0.6595734171569347,
+    "probabilities": [
+      0.6880812048912048,
+      0.2834109961986542,
+      0.028507787734270096
+    ]
+  },
+  {
+    "id": "7ca4d84ef8e6bdc03ae1b5594634cda1e32975d4bd927d15311b410665403fa3",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9686689078807831,
+    "probabilities": [
+      0.9766013622283936,
+      0.015466214157640934,
+      0.007932454347610474
+    ]
+  },
+  {
+    "id": "7e080ec3014cc5ec15ddad4ff9e0393b51b75b14347b808be92d911934b59c33",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.913114589639008,
+    "probabilities": [
+      0.013176637701690197,
+      0.060532208532094955,
+      0.9262912273406982
+    ]
+  },
+  {
+    "id": "7e429224fd3368a615109a597551e62d7915ee7afaaa321deb8e4b355ff03ec8",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9669828061014414,
+    "probabilities": [
+      0.9756894111633301,
+      0.015603922307491302,
+      0.008706605061888695
+    ]
+  },
+  {
+    "id": "7ecfe24a7d13641c4c030e20b37828d9984cf0045d1ac62b710ef6fc42c24db3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.040556056424975395,
+    "probabilities": [
+      0.057928476482629776,
+      0.9246991276741028,
+      0.01737242005765438
+    ]
+  },
+  {
+    "id": "7f06aca596a6405676ade6ce11e5e36c249388edf8d321d1733009849c1c0f7d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.035674236714839935,
+    "probabilities": [
+      0.01706511899828911,
+      0.9301955103874207,
+      0.052739355713129044
+    ]
+  },
+  {
+    "id": "7f4e1901f809191acbd60b3eb585c43d8b5391bc5121dc9e924313d7ef6d6a8e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.012910092249512672,
+    "probabilities": [
+      0.021917222067713737,
+      0.9432554841041565,
+      0.03482731431722641
+    ]
+  },
+  {
+    "id": "7f5891358263033171de530301d68b976993e898b5c7aa045370061ec65b66a9",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.030783713795244694,
+    "probabilities": [
+      0.014315853826701641,
+      0.9405845403671265,
+      0.045099567621946335
+    ]
+  },
+  {
+    "id": "7f8a68f60dfb5f54b1f531530a297ecafeaeb7ff7b6d2e97bf063269644123bc",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.010721193626523018,
+    "probabilities": [
+      0.02190774492919445,
+      0.9454632997512817,
+      0.03262893855571747
+    ]
+  },
+  {
+    "id": "7f9e01f73f23ff857937b50a7e4dae3c9ada67d3612de661c4c16e36c0a555c0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05096242856234312,
+    "probabilities": [
+      0.01223802287131548,
+      0.9245615601539612,
+      0.0632004514336586
+    ]
+  },
+  {
+    "id": "8031d1a953c390da70d7a73bd602ab531850978c80f2d9684745f22c8b17b702",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.00757361575961113,
+    "probabilities": [
+      0.028642961755394936,
+      0.9502877593040466,
+      0.021069345995783806
+    ]
+  },
+  {
+    "id": "807bfc40ca664c757cf260e3aa162ab4c442e5ffb610a3247ef7f302afad9add",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9407748430967331,
+    "probabilities": [
+      0.014884188771247864,
+      0.029456693679094315,
+      0.955659031867981
+    ]
+  },
+  {
+    "id": "8234bb0f84220cd39917b8eb7a0f22bbb150a18961fe0886fd7f206288676f47",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9227362759411335,
+    "probabilities": [
+      0.010401081293821335,
+      0.056461673229932785,
+      0.9331373572349548
+    ]
+  },
+  {
+    "id": "828af2ffdd159d6614236d9b8a27016233a24f33e3b6859aad7d226da439be49",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.935446111485362,
+    "probabilities": [
+      0.01923886127769947,
+      0.026076098904013634,
+      0.9546849727630615
+    ]
+  },
+  {
+    "id": "82d7937a1b3ebe32b7558f947df84ec899c8db2172d1f39a7c1649ae9bf21494",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.4711519917473197,
+    "probabilities": [
+      0.008771703578531742,
+      0.5113046169281006,
+      0.47992369532585144
+    ]
+  },
+  {
+    "id": "8431d002900f3a2f55923310a12c8ee00f42888022b3dd5be9535c1866b52913",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.00574285164475441,
+    "probabilities": [
+      0.0443362332880497,
+      0.9170703887939453,
+      0.03859338164329529
+    ]
+  },
+  {
+    "id": "847483e03d3bb0e47a3404a2c5502ea9759c72c9fbd364de3f09cb978c02ddf7",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05132086202502251,
+    "probabilities": [
+      0.026735540479421616,
+      0.8952080607414246,
+      0.07805640250444412
+    ]
+  },
+  {
+    "id": "8492696843ee30e55539405b5f6252a4f266bf5510d10774ccff68661df42b95",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.015612270683050156,
+    "probabilities": [
+      0.0226319320499897,
+      0.939123809337616,
+      0.038244202733039856
+    ]
+  },
+  {
+    "id": "84c401183c30566b4b7acba13c9380e7385670d75a75bcf5fb61d488dffd8104",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.953817427624017,
+    "probabilities": [
+      0.9606772661209106,
+      0.03246283903717995,
+      0.006859838496893644
+    ]
+  },
+  {
+    "id": "85ac344647541a9ac8434b209bb832c61a0880ec03c5a3bd71f493418455b58f",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9345136191695929,
+    "probabilities": [
+      0.019595691934227943,
+      0.026294993236660957,
+      0.9541093111038208
+    ]
+  },
+  {
+    "id": "85bc117b335edb7ea0bf48f9189a80a69ab747722e258744d38f2d6cbe11ab49",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.03351305052638054,
+    "probabilities": [
+      0.05024537444114685,
+      0.9330223202705383,
+      0.01673232391476631
+    ]
+  },
+  {
+    "id": "85cdcda428cdec6fc5f2f0a2b8c5cb8616ff8e0f0d4d64d576d328f886c2d054",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.12548343278467655,
+    "probabilities": [
+      0.020055687054991722,
+      0.834405243396759,
+      0.14553911983966827
+    ]
+  },
+  {
+    "id": "86398aab0ab736648cea1f11581af61a3b0910a9612e66810272d702380009a1",
+    "truth": "neutral",
+    "label": "negative",
+    "score": -0.9158440679311752,
+    "probabilities": [
+      0.9408617615699768,
+      0.03412053361535072,
+      0.025017693638801575
+    ]
+  },
+  {
+    "id": "86429082e73a3634d37895d5f1eba10e9a82e43c4ce40232550fcb9bb95cc29f",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9376108217984438,
+    "probabilities": [
+      0.01812194101512432,
+      0.02614530920982361,
+      0.9557327628135681
+    ]
+  },
+  {
+    "id": "868f07463160fd758622a75d19be0980a087c5285d3344103069bedb655a7a0a",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9372562542557716,
+    "probabilities": [
+      0.018943868577480316,
+      0.02485603652894497,
+      0.956200122833252
+    ]
+  },
+  {
+    "id": "86b8892aee91ce3b6c52a9a7350e521030b5fd740e4fbf0508823ae0e7f7a403",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04866034723818302,
+    "probabilities": [
+      0.011074276641011238,
+      0.9291911125183105,
+      0.05973462387919426
+    ]
+  },
+  {
+    "id": "86c0acc9196acfd95be7389c4e3a5f6c92be54b66c88c928469736c2cbca40ab",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0020090974867343903,
+    "probabilities": [
+      0.022533485665917397,
+      0.9529238939285278,
+      0.024542583152651787
+    ]
+  },
+  {
+    "id": "87c09039d3f031c2a8a313ca9aa4a04baf583e4a56b5b7293e2dd486f591d93f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.06050213612616062,
+    "probabilities": [
+      0.011153874918818474,
+      0.9171901345252991,
+      0.0716560110449791
+    ]
+  },
+  {
+    "id": "882cecfd85d11b3a446c2b56fd79bf8b470fc9ad505c386fca473aa047f015c0",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9664927488192916,
+    "probabilities": [
+      0.9743717312812805,
+      0.017749248072504997,
+      0.007878982461988926
+    ]
+  },
+  {
+    "id": "895cb5792f39bf75d42c095ac791756d791ede40835149926d324236e699d610",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.024924244731664658,
+    "probabilities": [
+      0.04499119520187378,
+      0.9349418878555298,
+      0.02006695047020912
+    ]
+  },
+  {
+    "id": "89ae9c849a7b4586ff4a8177c5275804095889a3686e192162bd9df9d0dade9e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.24068468809127808,
+    "probabilities": [
+      0.27519315481185913,
+      0.6902983784675598,
+      0.034508466720581055
+    ]
+  },
+  {
+    "id": "8c0c50157131a6cc07423f8f35a80917933aaac5204a1d2081df120d71142134",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.012310128659009933,
+    "probabilities": [
+      0.021784447133541107,
+      0.9441209435462952,
+      0.03409457579255104
+    ]
+  },
+  {
+    "id": "8c5d69c6f33b17059d708998f3ca1ee7920fc2f0ea440f3e96474e7a36907410",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.19445720501244068,
+    "probabilities": [
+      0.028594492003321648,
+      0.7483538389205933,
+      0.22305169701576233
+    ]
+  },
+  {
+    "id": "8e11ce90b3e583d48712a90bf7544aaa0f32039ea0e06c5a6a6c27f566e45834",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08019218407571316,
+    "probabilities": [
+      0.013571323826909065,
+      0.8926652073860168,
+      0.09376350790262222
+    ]
+  },
+  {
+    "id": "8e2ca84f0b375df4fe9cbab9230e0930b445fbdc15ebe9b0d32b60f8f695c948",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0040169768035411835,
+    "probabilities": [
+      0.04121331498026848,
+      0.9135563373565674,
+      0.04523029178380966
+    ]
+  },
+  {
+    "id": "8ee5037c43fff514d0cd9ec3bcd9076f50cb460f60352f85ce7774f2509de3f8",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0510715926066041,
+    "probabilities": [
+      0.014672509394586086,
+      0.9195833802223206,
+      0.06574410200119019
+    ]
+  },
+  {
+    "id": "8f006592ac114dc4149ced72c7762b13d8cf33600b9fe14349ee41d6161970e0",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9629463199526072,
+    "probabilities": [
+      0.9757694602012634,
+      0.011407426558434963,
+      0.012823140248656273
+    ]
+  },
+  {
+    "id": "8f4d4e4cd1450c462fad029ced7fe220779e2defe79de79ed869d3134f05e83f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.12262023147195578,
+    "probabilities": [
+      0.010190390981733799,
+      0.8569990396499634,
+      0.13281062245368958
+    ]
+  },
+  {
+    "id": "8f8e23b9d55e39fbb7dc0de87834c4a10144174a572872ce547943ff2b084bca",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8765015499666333,
+    "probabilities": [
+      0.007328997366130352,
+      0.10884050279855728,
+      0.8838305473327637
+    ]
+  },
+  {
+    "id": "90f833ed22d2c548da8e05a04e33875fd63904ab50b7707d3a174dde325de2a5",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.026115206070244312,
+    "probabilities": [
+      0.014241605065762997,
+      0.9454016089439392,
+      0.04035681113600731
+    ]
+  },
+  {
+    "id": "910fa4ebbabb938f8159bc25023549e7a1681815a132cad787664c386f95dd74",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.02100434899330139,
+    "probabilities": [
+      0.041560105979442596,
+      0.9378840923309326,
+      0.020555756986141205
+    ]
+  },
+  {
+    "id": "91e842ccca8b4a8885c18698cdf13d64f666e2057c7d08b9ece71474e75961e5",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.4728215206414461,
+    "probabilities": [
+      0.008130384609103203,
+      0.5109176635742188,
+      0.4809519052505493
+    ]
+  },
+  {
+    "id": "921f054802a9d88168841981fe3e5abab013749722226ab916685c0192aa1413",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.005120910704135895,
+    "probabilities": [
+      0.023486509919166565,
+      0.9479061365127563,
+      0.02860742062330246
+    ]
+  },
+  {
+    "id": "927b4dcdc5f342bf558eb4730f350803560a9712b988020c0548b2af10d85186",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.013920916244387627,
+    "probabilities": [
+      0.017493313178420067,
+      0.9510924816131592,
+      0.031414229422807693
+    ]
+  },
+  {
+    "id": "942890ddd1723f3c675815e05d0b461a977fe1b3e727158f40887e790d98a75a",
+    "truth": "neutral",
+    "label": "negative",
+    "score": -0.10869354009628296,
+    "probabilities": [
+      0.38323184847831726,
+      0.34222978353500366,
+      0.2745383083820343
+    ]
+  },
+  {
+    "id": "946c22484e17e62ebf4c8ea70564117ba03add3e61b721a1d67907a596a7c8e4",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9302192367613316,
+    "probabilities": [
+      0.019869264215230942,
+      0.03004215657711029,
+      0.9500885009765625
+    ]
+  },
+  {
+    "id": "95d14e878abf3479d5893000b3c1c3e8403d6935051784630d92e9c6d1011b65",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.014289524406194687,
+    "probabilities": [
+      0.01625804603099823,
+      0.9531943798065186,
+      0.030547570437192917
+    ]
+  },
+  {
+    "id": "95f1ccd0012c694dd7fc0d630713534e1bbe1e2c569911a1abf33508476a5dd0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.02660437859594822,
+    "probabilities": [
+      0.020274700596928596,
+      0.932846188545227,
+      0.046879079192876816
+    ]
+  },
+  {
+    "id": "96dfe3f70ed074d5d8591a05cb898b92f90774a5178c105adfe1b6a63c26879d",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9689307184889913,
+    "probabilities": [
+      0.976409912109375,
+      0.01611093245446682,
+      0.0074791936203837395
+    ]
+  },
+  {
+    "id": "972f6b271f6ad4c88ff7bdae9443dcba7bd23227137e8a64562041eb18972589",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.07149104494601488,
+    "probabilities": [
+      0.009185868315398693,
+      0.9101371765136719,
+      0.08067691326141357
+    ]
+  },
+  {
+    "id": "976473a00ba57601b44dc0a467df298ff4e71255ab4d96c104d938dfa7343b82",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.945199522189796,
+    "probabilities": [
+      0.954764187335968,
+      0.03567104414105415,
+      0.009564665146172047
+    ]
+  },
+  {
+    "id": "979c795c575577b289aef4c8eb7e803ee9cca58c1896e9aac2f0276a425ba911",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.928874596953392,
+    "probabilities": [
+      0.027813449501991272,
+      0.015498530119657516,
+      0.9566880464553833
+    ]
+  },
+  {
+    "id": "982c22fc2864832ecca663faf7a6210c7ec5c793546cb215e2a8e5623370a5c1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.013329150155186653,
+    "probabilities": [
+      0.016816362738609314,
+      0.9530380964279175,
+      0.030145512893795967
+    ]
+  },
+  {
+    "id": "98392d55a0411d6b00e1b6b821516475000ae038dd76cabe769ee679c290a8c9",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9685659306123853,
+    "probabilities": [
+      0.9766149520874023,
+      0.01533599104732275,
+      0.00804902147501707
+    ]
+  },
+  {
+    "id": "9845e521392eb14d290378e3deebc2d3ec3925dadd35f02b1ba493a07e907726",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.025245098397135735,
+    "probabilities": [
+      0.014264525845646858,
+      0.9462258219718933,
+      0.03950962424278259
+    ]
+  },
+  {
+    "id": "989449c017206beb36c9e1ca4c98de05865495e6eeed9495bc295db046a24537",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.2312876651994884,
+    "probabilities": [
+      0.007612862158566713,
+      0.7534865736961365,
+      0.23890052735805511
+    ]
+  },
+  {
+    "id": "98d0fe1b3d8057968c6ea05a914adf90cbda78e9fd1cdee43ccea3607d7cb24d",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9169102609157562,
+    "probabilities": [
+      0.03100571036338806,
+      0.021078307181596756,
+      0.9479159712791443
+    ]
+  },
+  {
+    "id": "98da694cd9d91731c864e88ab64bb2122355d2b606705d7266c0dd645f84d189",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.032296519726514816,
+    "probabilities": [
+      0.021122481673955917,
+      0.925458550453186,
+      0.053419001400470734
+    ]
+  },
+  {
+    "id": "98ffbf32b601e96fbd6426752a5f2e26300e013035427399f18af210274c7635",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8957514418289065,
+    "probabilities": [
+      0.0073052989318966866,
+      0.08963797241449356,
+      0.9030567407608032
+    ]
+  },
+  {
+    "id": "9936a13a407b8b0e8314709d532ccf776f14d4c73c708309929438e4bd700e93",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.009029073640704155,
+    "probabilities": [
+      0.025684406980872154,
+      0.9396021366119385,
+      0.03471348062157631
+    ]
+  },
+  {
+    "id": "99bd04a3f0db4b81d6024378899157be7b7e21339c5c3b5743ce7ef6d32ceeaf",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9213460125029087,
+    "probabilities": [
+      0.026473578065633774,
+      0.025706851854920387,
+      0.9478195905685425
+    ]
+  },
+  {
+    "id": "99d728733406a2db9695b5bf8d4fc512c79e601879c2e128d30f8bc6e242697b",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9431036077439785,
+    "probabilities": [
+      0.9670711159706116,
+      0.008961336687207222,
+      0.023967508226633072
+    ]
+  },
+  {
+    "id": "9a341c283ffee2561b466966536236c412680b764d09f1e80219ba28a0fd948d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.45783975906670094,
+    "probabilities": [
+      0.010183749720454216,
+      0.5217927098274231,
+      0.46802350878715515
+    ]
+  },
+  {
+    "id": "9a789d01a93d97f38b0af83a3a7ef9b07596feca0da06412adf5ce61b1a64101",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.947345701046288,
+    "probabilities": [
+      0.9606977105140686,
+      0.02595021389424801,
+      0.01335200946778059
+    ]
+  },
+  {
+    "id": "9c497b4bdb1d5e80f3f3745054d42ed0ff2c705dfac70acc10eb938e05468842",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.039314827881753445,
+    "probabilities": [
+      0.012000498361885548,
+      0.9366841316223145,
+      0.05131532624363899
+    ]
+  },
+  {
+    "id": "9cd80262cfd61722b5f6aea134e708866639e73a51c57e9012551d9733edb781",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9265843955799937,
+    "probabilities": [
+      0.013693121261894703,
+      0.04602937400341034,
+      0.9402775168418884
+    ]
+  },
+  {
+    "id": "9d60cc0b9c5e63b3fcde6c2bf5d634882deebfa5002500535ccdd0d321d0ae5c",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.02574501559138298,
+    "probabilities": [
+      0.01573009043931961,
+      0.9427947998046875,
+      0.04147510603070259
+    ]
+  },
+  {
+    "id": "9dd075883cebb902a7f65998d28253011db9e48cddfd4524b33af93a398fc7b8",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.006232120096683502,
+    "probabilities": [
+      0.027626801282167435,
+      0.9385142922401428,
+      0.03385892137885094
+    ]
+  },
+  {
+    "id": "9ddaefb3e491ccd794eb22094349b83990b9172aaedd7344dbd7840663685202",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9343173932284117,
+    "probabilities": [
+      0.019581632688641548,
+      0.026519326493144035,
+      0.9538990259170532
+    ]
+  },
+  {
+    "id": "9e54476163a652d266a36b71b48ddc337c0f2ca92ff787e3e2c17e3f0d2304ea",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.024282297119498253,
+    "probabilities": [
+      0.016903122887015343,
+      0.9419114589691162,
+      0.041185420006513596
+    ]
+  },
+  {
+    "id": "9eaf7fb38450d825bb9e90b3c8f488fa9d494ed124f48619c66fd5b7b6db85e4",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.023705098778009415,
+    "probabilities": [
+      0.05337576940655708,
+      0.8695433139801025,
+      0.0770808681845665
+    ]
+  },
+  {
+    "id": "9f3329694fde24654dc68374e10c6a7104b0d4182931a6514370083ec9203a5f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0058345068246126175,
+    "probabilities": [
+      0.020056724548339844,
+      0.9540520906448364,
+      0.02589123137295246
+    ]
+  },
+  {
+    "id": "9ffa27cbbf96491bc5fdad70b2ce400582a2422eff0baa38d2ce9ad2627360f0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.19000578206032515,
+    "probabilities": [
+      0.009694826789200306,
+      0.7906045913696289,
+      0.19970060884952545
+    ]
+  },
+  {
+    "id": "a0c54e427eeb6dcf35b60404074e8529415532da22992e12828c2e0c1a6ad1f2",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9474698845297098,
+    "probabilities": [
+      0.9683352708816528,
+      0.010799361392855644,
+      0.020865386351943016
+    ]
+  },
+  {
+    "id": "a0f9cd97f68998419274e8953ce7c36e3c32f1b70e1a3ff10d86e942aa0273ec",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08052467741072178,
+    "probabilities": [
+      0.014730600640177727,
+      0.890014111995697,
+      0.0952552780508995
+    ]
+  },
+  {
+    "id": "a153ee13c8665741f09d0993aec439d1ce50cded124718b7d83e5d962cb5d8d7",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.17716009449213743,
+    "probabilities": [
+      0.007433568127453327,
+      0.8079727292060852,
+      0.18459366261959076
+    ]
+  },
+  {
+    "id": "a16233b997532c017cdb1ca8f18b7f26eb049b5febd613b0babfc5decc012c98",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.1867029289714992,
+    "probabilities": [
+      0.007767804432660341,
+      0.7977614998817444,
+      0.19447073340415955
+    ]
+  },
+  {
+    "id": "a1976fc7d782e3ee427b1b331fcb9536981f13cddbf82f3e25574666c42ecdb6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.20389609970152378,
+    "probabilities": [
+      0.008904194459319115,
+      0.7782955765724182,
+      0.2128002941608429
+    ]
+  },
+  {
+    "id": "a20e257f0738d0f82456a02bc4cfb014380a3101ace5b7ad9f55ec38c5d1eec9",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9282089360058308,
+    "probabilities": [
+      0.025111865252256393,
+      0.02156737446784973,
+      0.9533208012580872
+    ]
+  },
+  {
+    "id": "a2e39600522289bf6a91c29feed68a9ee8baef1b7f9b92a82948e26eebe8db36",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.930082144215703,
+    "probabilities": [
+      0.024479208514094353,
+      0.020959412679076195,
+      0.9545613527297974
+    ]
+  },
+  {
+    "id": "a3243e425475e1d8416ec60bca9c369ad6557297ca6c3d715bb02a5c6d62c8a0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03187870234251022,
+    "probabilities": [
+      0.013616852462291718,
+      0.9408876299858093,
+      0.04549555480480194
+    ]
+  },
+  {
+    "id": "a325dab4e443bb96d53732f707521d8bacc55240316808c51e98d9bd7d1184ce",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.967109790071845,
+    "probabilities": [
+      0.9754182696342468,
+      0.01627320423722267,
+      0.008308479562401772
+    ]
+  },
+  {
+    "id": "a4b1eb8ecde0a0cef2230d6862a3124f51ba3c3b2fe35b4eb038471a62ba13f1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05631765350699425,
+    "probabilities": [
+      0.019826296716928482,
+      0.9040297865867615,
+      0.07614395022392273
+    ]
+  },
+  {
+    "id": "a551dbaf3a02868a49c49fd68d739a8d51c07a16d80e76eae952777989dba40c",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9030431201681495,
+    "probabilities": [
+      0.0076031992211937904,
+      0.08175056427717209,
+      0.9106463193893433
+    ]
+  },
+  {
+    "id": "a64672f27ee84eb07c14d82e944c7e52d33fc52731c790c89b654aeab893bca5",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.14858842734247446,
+    "probabilities": [
+      0.009162134490907192,
+      0.8330873250961304,
+      0.15775056183338165
+    ]
+  },
+  {
+    "id": "a6b1dbe5c27ff498f1613a1ee555ce6df1a3862c3345a2ca5cd63136fdcee9d5",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03818996250629425,
+    "probabilities": [
+      0.0689406618475914,
+      0.823928713798523,
+      0.10713062435388565
+    ]
+  },
+  {
+    "id": "a6e5460d9f8248d5633152ec4507add66cccba5c5cb02faa39b39a47ebe6002e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.024465221911668777,
+    "probabilities": [
+      0.042068902403116226,
+      0.9403274059295654,
+      0.01760368049144745
+    ]
+  },
+  {
+    "id": "a6eb507a76e9dd66f6d55d049d5803f0e2bc6b89ff339fab66e16d8c16d6cbf5",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.019093986600637436,
+    "probabilities": [
+      0.0355757512152195,
+      0.9479424357414246,
+      0.016481764614582062
+    ]
+  },
+  {
+    "id": "a7ddadbdce4958ccba43a43e35122d1399e7f849bdd158be3e2b04e4ef48705b",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.2432832419872284,
+    "probabilities": [
+      0.00818982720375061,
+      0.7403371334075928,
+      0.251473069190979
+    ]
+  },
+  {
+    "id": "a80f49ad28057dc64113c088b24cc34ad733d89ead96558c6e52dcdae95a3309",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9384065438061953,
+    "probabilities": [
+      0.017040712758898735,
+      0.02751198410987854,
+      0.955447256565094
+    ]
+  },
+  {
+    "id": "a8573527819e81ff55a564c4c7e5f1969a598686ddcded420ead761197fa62f9",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.031197363510727882,
+    "probabilities": [
+      0.012176355347037315,
+      0.9444499015808105,
+      0.0433737188577652
+    ]
+  },
+  {
+    "id": "a93981d5c3386fcd74431ebbf980cd4876fdf2bd0b9610c658f89e429df91ea0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.010019250214099884,
+    "probabilities": [
+      0.01731233298778534,
+      0.9553560614585876,
+      0.027331583201885223
+    ]
+  },
+  {
+    "id": "a9ddc17f20a3f20648335329033f6c067b5a74ddbe2af604f2f1fb8159fc4b43",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.015313087031245232,
+    "probabilities": [
+      0.015713227912783623,
+      0.9532604217529297,
+      0.031026314944028854
+    ]
+  },
+  {
+    "id": "aa102901b3c31d3c6b9ff474a40084107e7e697fa87513e480bd9b31fe8de979",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.010805832222104073,
+    "probabilities": [
+      0.029391616582870483,
+      0.9520226120948792,
+      0.01858578436076641
+    ]
+  },
+  {
+    "id": "ab06d157ad06354e17b946f47b98f25013d08f389d69a82eda1ea267397cb9c3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03202540799975395,
+    "probabilities": [
+      0.013587720692157745,
+      0.9407991170883179,
+      0.0456131286919117
+    ]
+  },
+  {
+    "id": "ab2fd52c6377c2842fc764e54905696d81ee684b6dea6dde3d0a7d31df1c6dea",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9363161381334066,
+    "probabilities": [
+      0.017374331131577492,
+      0.02893511950969696,
+      0.9536904692649841
+    ]
+  },
+  {
+    "id": "ad13d390f016fb67e16446314e43a29a68bdf01529d6219def1b07a58671d6e6",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0003308150917291641,
+    "probabilities": [
+      0.023648016154766083,
+      0.952373206615448,
+      0.023978831246495247
+    ]
+  },
+  {
+    "id": "ad3812c7bccb243a87101cc3c80b82a75aa610d97ed014383bd102af1b9bea97",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04296404682099819,
+    "probabilities": [
+      0.014897322282195091,
+      0.9272413849830627,
+      0.05786136910319328
+    ]
+  },
+  {
+    "id": "ad3bc8f780ca7fbabbaa51d09a2b730033d3006259f1c0423856fa890e7e6f03",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9501333422958851,
+    "probabilities": [
+      0.9700015187263489,
+      0.010130262933671474,
+      0.01986817643046379
+    ]
+  },
+  {
+    "id": "adb2b876ded0105a03814d7e36abd5de71b004a1cf898d759babb4a1d88846fc",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9011342935264111,
+    "probabilities": [
+      0.03846730664372444,
+      0.021931057795882225,
+      0.9396016001701355
+    ]
+  },
+  {
+    "id": "adf9c89d4221a1497da995d1982dd8b40880a931aff8bb43392f24d0c585d7dd",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9097275538370013,
+    "probabilities": [
+      0.008037050254642963,
+      0.07419834285974503,
+      0.9177646040916443
+    ]
+  },
+  {
+    "id": "ae80e730d2903a071b399820f543722e154734502afc745189c038bd2071fd81",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9359844867140055,
+    "probabilities": [
+      0.01423836313188076,
+      0.035538822412490845,
+      0.9502228498458862
+    ]
+  },
+  {
+    "id": "ae98bd79994c631bf3cf99cee2f5e1951c2418e7c23f97b19726faca329b1af1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.12983147613704205,
+    "probabilities": [
+      0.009272919967770576,
+      0.8516227006912231,
+      0.13910439610481262
+    ]
+  },
+  {
+    "id": "aeb26111a9ab46d1dec892377c6d5313fe34077119929bfa1953ad10439af18c",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9673121431842446,
+    "probabilities": [
+      0.9757062196731567,
+      0.015899622812867165,
+      0.008394076488912106
+    ]
+  },
+  {
+    "id": "aed99f5ba5f0601845786ffa21bf0bd572b1a30079e8058038e69f050b7115c1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.009446488693356514,
+    "probabilities": [
+      0.0246585700660944,
+      0.9412363767623901,
+      0.03410505875945091
+    ]
+  },
+  {
+    "id": "af1d80c492fd1047f8d7057c26aa23f0852faa017c4e6739e99dceefaf1be950",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9320649392902851,
+    "probabilities": [
+      0.016209255903959274,
+      0.035516511648893356,
+      0.9482741951942444
+    ]
+  },
+  {
+    "id": "afdad6c5f0a23f55ddb53168f498486c32ed0768f1bc5c38c2d4b407f1a83b32",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.2684272867627442,
+    "probabilities": [
+      0.007234837394207716,
+      0.7171030044555664,
+      0.2756621241569519
+    ]
+  },
+  {
+    "id": "b0a22271fe200225fc4901028ec24454c9de68d6b63d4ba27d3572d3f531fd51",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.013941209763288498,
+    "probabilities": [
+      0.01982973888516426,
+      0.9463992714881897,
+      0.03377094864845276
+    ]
+  },
+  {
+    "id": "b0fce7e4d9e1cd3e3201b4b439dece6139f1cfea561804bff293d28c6899a068",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.043869441375136375,
+    "probabilities": [
+      0.06289658695459366,
+      0.9180762767791748,
+      0.019027145579457283
+    ]
+  },
+  {
+    "id": "b119cf2596c882111088f2429ddd9522f4c3695e815c7e3c63427dd519fa665f",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9337031506001949,
+    "probabilities": [
+      0.0220395065844059,
+      0.02221783995628357,
+      0.9557426571846008
+    ]
+  },
+  {
+    "id": "b238291c48586a87bef3efd06bc2b6f768b778e592c42e28406f93ca62b7edfd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.01956765539944172,
+    "probabilities": [
+      0.014691183343529701,
+      0.9510499835014343,
+      0.03425883874297142
+    ]
+  },
+  {
+    "id": "b2816de9f8d60d979f71b4145c96492521aec28be4aa3c323190499750a8457e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.027614155784249306,
+    "probabilities": [
+      0.01675584726035595,
+      0.9388741850852966,
+      0.044370003044605255
+    ]
+  },
+  {
+    "id": "b29741bdfab328b9c1f106fda5a701102b4daea0fbb29248a52004b7f6cc2f3a",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9014207161962986,
+    "probabilities": [
+      0.038636382669210434,
+      0.021306561306118965,
+      0.940057098865509
+    ]
+  },
+  {
+    "id": "b37a04db50aa00c2e095b55e0262ecdfffdb1c512a551ce3ff3f8deac63e2fe7",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05026776064187288,
+    "probabilities": [
+      0.010882957838475704,
+      0.9279663562774658,
+      0.06115071848034859
+    ]
+  },
+  {
+    "id": "b3a947f1c98ee9d460b39161b5ada2deff6b2aeb3c325e6eed47267da288a80f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.03907786123454571,
+    "probabilities": [
+      0.06368379294872284,
+      0.911710262298584,
+      0.02460593171417713
+    ]
+  },
+  {
+    "id": "b3ab31623a2e66150be8fd4622da8553a709707e28bf40ad68e11cfac67f3ef2",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.044491189531981945,
+    "probabilities": [
+      0.011023816652595997,
+      0.9334611892700195,
+      0.05551500618457794
+    ]
+  },
+  {
+    "id": "b40fb1fa4204fb8f3b1b0e79faac2f9bb325dd679e7e57bad60961056d364ddc",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.019217872992157936,
+    "probabilities": [
+      0.015450617298483849,
+      0.9498808979988098,
+      0.034668490290641785
+    ]
+  },
+  {
+    "id": "b47b427ca7f12ca5f56d4596c892243736b8096196ca5a9106986df7a9a0f292",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.003028063103556633,
+    "probabilities": [
+      0.020864706486463547,
+      0.9552424550056458,
+      0.02389276959002018
+    ]
+  },
+  {
+    "id": "b4d4a9ccebb5d963b84406941a293d32f48f4f76ecb69a2d701723d3ccf351ce",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9405352342873812,
+    "probabilities": [
+      0.017368806526064873,
+      0.024727195501327515,
+      0.957904040813446
+    ]
+  },
+  {
+    "id": "b4fb7773485ca3e0ca8301d71c7b9ea6433b8f09519229f2517f246e24f5a339",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9668602347373962,
+    "probabilities": [
+      0.9752402305603027,
+      0.01637979783117771,
+      0.008379995822906494
+    ]
+  },
+  {
+    "id": "b5d7f2a6df0f41072cb9622e85f73cd4ad991b1f411996966c3d5af80aa1faff",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.018099429085850716,
+    "probabilities": [
+      0.02118801511824131,
+      0.9395245909690857,
+      0.039287444204092026
+    ]
+  },
+  {
+    "id": "b657b250073148a1f197e50b4e8a3037d6d0dcdcb81cf8092f9cda7f882dec37",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03367331065237522,
+    "probabilities": [
+      0.022986428812146187,
+      0.9203538298606873,
+      0.05665973946452141
+    ]
+  },
+  {
+    "id": "b6ac753012865ce568db67310c1f76f0cd3d3d2a30571010fd5e42e3f0ea074f",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.938118577003479,
+    "probabilities": [
+      0.019563913345336914,
+      0.022753579542040825,
+      0.9576824903488159
+    ]
+  },
+  {
+    "id": "b7cf568b70aa9d4fb6e3f5e26c3708007aad0f90869b698260e8284cb9757cdd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.02684687450528145,
+    "probabilities": [
+      0.01741427183151245,
+      0.9383246302604675,
+      0.0442611463367939
+    ]
+  },
+  {
+    "id": "b8054b64f49122ca8c889673eef5e572e9738daf5265c2d52ca4881c20010eec",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04499643389135599,
+    "probabilities": [
+      0.014018445275723934,
+      0.926966667175293,
+      0.059014879167079926
+    ]
+  },
+  {
+    "id": "b9e9a4b7d3da06f3211581e336609ff1cfc3f8d9edbeec2149b2a59a312171da",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.020394204184412956,
+    "probabilities": [
+      0.018241344019770622,
+      0.9431230425834656,
+      0.03863554820418358
+    ]
+  },
+  {
+    "id": "ba39d16d76db7d21e01dc9a6b51c8f1782d7c20da3a92effa4aa71dfb195f164",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.015952376648783684,
+    "probabilities": [
+      0.01571153663098812,
+      0.9526245594024658,
+      0.031663913279771805
+    ]
+  },
+  {
+    "id": "baab3c2899373fcb6962adf6fe3930e8832d733ffbc3c49cfbe6387e00fb54d9",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0011313557624816895,
+    "probabilities": [
+      0.02181638590991497,
+      0.9552358388900757,
+      0.02294774167239666
+    ]
+  },
+  {
+    "id": "bb0124e67d94835d9e64247359a09c49eee322fd6ebf647e9084f1562a5bfa46",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9292733483016491,
+    "probabilities": [
+      0.0240759439766407,
+      0.02257477305829525,
+      0.9533492922782898
+    ]
+  },
+  {
+    "id": "bb2a4672e64a03abba5332a44c31b7aa45d354331277416759117ddf3baeab23",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9373498745262623,
+    "probabilities": [
+      0.015947919338941574,
+      0.030754204839468002,
+      0.9532977938652039
+    ]
+  },
+  {
+    "id": "bb38ae74f22a6466159ad62b4516df159605dabd811ccdf16303102f8bb18a65",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9425034951418638,
+    "probabilities": [
+      0.015927629545331,
+      0.025641154497861862,
+      0.9584311246871948
+    ]
+  },
+  {
+    "id": "bb746e6cc376678325a48701e5464f81f93dc35b79ed085c59940637067e7368",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.013967890292406082,
+    "probabilities": [
+      0.03450410068035126,
+      0.9449596405029297,
+      0.020536210387945175
+    ]
+  },
+  {
+    "id": "bbf8bccacd927111f6e1bdaf05934a58acbc10f95e02dd931685ec6ab903780b",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.005363786593079567,
+    "probabilities": [
+      0.028259271755814552,
+      0.9381176829338074,
+      0.03362305834889412
+    ]
+  },
+  {
+    "id": "bdae3cc79821626b416cf41a081f116b79a8a479d344f011c3dfa37b68b69678",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9663891512900591,
+    "probabilities": [
+      0.975927472114563,
+      0.014534170739352703,
+      0.009538320824503899
+    ]
+  },
+  {
+    "id": "bed002fee3e89508782051752538c900f8a302e68b8f4fb7c4f4566eb1d5fbfd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.028315178118646145,
+    "probabilities": [
+      0.014857773669064045,
+      0.9419692158699036,
+      0.04317295178771019
+    ]
+  },
+  {
+    "id": "bff81bd3302ea1a365a404949e2b5ba6cb4eccea5a123af22f4c755bd14cf45a",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03570321761071682,
+    "probabilities": [
+      0.012251375243067741,
+      0.9397940039634705,
+      0.04795459285378456
+    ]
+  },
+  {
+    "id": "c032c2a5370a8d842735cc8cf28428695eb7c33c74e4b4b65891873ccea9b054",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.16841189563274384,
+    "probabilities": [
+      0.008865267038345337,
+      0.8138575553894043,
+      0.17727716267108917
+    ]
+  },
+  {
+    "id": "c0a5922124e27352dcc67cd7434764c244cead4687f9bf8be7e90ccebdc36adf",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.06185853946954012,
+    "probabilities": [
+      0.010042513720691204,
+      0.9180564880371094,
+      0.07190105319023132
+    ]
+  },
+  {
+    "id": "c163e2157d1b145370f076cae639568de8db23ab7d4e80710dcd5bdc5d06e636",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.042483240365982056,
+    "probabilities": [
+      0.012115933001041412,
+      0.9332848787307739,
+      0.05459917336702347
+    ]
+  },
+  {
+    "id": "c195ad701f39486851028f2d0016c045a403b95ee0582af5c1b0ab278206b82d",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9265699498355389,
+    "probabilities": [
+      0.023232508450746536,
+      0.026965061202645302,
+      0.9498024582862854
+    ]
+  },
+  {
+    "id": "c1973ed90137cabc50477e8e373fe12db61a560fb011322d32cda6250b8b5d45",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.020227758213877678,
+    "probabilities": [
+      0.02000545524060726,
+      0.9397612810134888,
+      0.04023321345448494
+    ]
+  },
+  {
+    "id": "c1b70a0eaf685383ed26989a85cf9142a83bf48271d3199d2c00aa14c3a7d0cf",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.019510626792907715,
+    "probabilities": [
+      0.018902946263551712,
+      0.9426835179328918,
+      0.03841357305645943
+    ]
+  },
+  {
+    "id": "c1ece1636455344481cf2e87aac64367a707687c4a2a7282b23b87b201250f89",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9262163192033768,
+    "probabilities": [
+      0.02712063491344452,
+      0.019542453810572624,
+      0.9533369541168213
+    ]
+  },
+  {
+    "id": "c3cf731d6681982abd1086a3819ac60341f08a4402c0196575c4698347540ac0",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8987563122063875,
+    "probabilities": [
+      0.013575566932559013,
+      0.0740925520658493,
+      0.9123318791389465
+    ]
+  },
+  {
+    "id": "c3d2e6bc73a5df4cb6606de61fed95268aef77009fd8e59d74a57644470efe3e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0008090902119874954,
+    "probabilities": [
+      0.021446848288178444,
+      0.9562972784042358,
+      0.02225593850016594
+    ]
+  },
+  {
+    "id": "c408a0716aabd1c5b44fc4c9993806bf0cbf29378d2fd5af75a4a050f1972826",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9664311576634645,
+    "probabilities": [
+      0.976139485836029,
+      0.014152191579341888,
+      0.009708328172564507
+    ]
+  },
+  {
+    "id": "c4d698e0e85eb5220603c0696a9563410f2527d60aba3ee1bfed040764cc0176",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.41563671827316284,
+    "probabilities": [
+      0.2791885733604431,
+      0.025986142456531525,
+      0.694825291633606
+    ]
+  },
+  {
+    "id": "c515a14c85f6d441be930d352a968803e3a1c84bea49b566cf15d9c97bc9da07",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.02632913365960121,
+    "probabilities": [
+      0.04634945094585419,
+      0.9336302280426025,
+      0.020020317286252975
+    ]
+  },
+  {
+    "id": "c608a489a7b9110c8e07751663136256a47a71342e636beb65647a05872bced3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.005652718245983124,
+    "probabilities": [
+      0.02280699461698532,
+      0.9487333297729492,
+      0.028459712862968445
+    ]
+  },
+  {
+    "id": "c6de531e5f9d96dcd3232b1c339edd247e16eba4209946b5bb2b2e092d5e4a96",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.01187802106142044,
+    "probabilities": [
+      0.0190111193805933,
+      0.9500997066497803,
+      0.03088914044201374
+    ]
+  },
+  {
+    "id": "c849ecbdbaea32b235f1643f68bbf35e49b962903ea7e2ba30fbda1743ea416b",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9655214240774512,
+    "probabilities": [
+      0.9749720692634583,
+      0.015577289275825024,
+      0.009450645186007023
+    ]
+  },
+  {
+    "id": "c92385640d5e9c606828d7c35f195611b4fc162a836c21af4f97a80202a29300",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.0423946101218462,
+    "probabilities": [
+      0.07008654624223709,
+      0.9022215604782104,
+      0.027691936120390892
+    ]
+  },
+  {
+    "id": "c9521160606a0be4e23010a981e007d22d807ef253f6d3599a88db5fbd7d3d76",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03785342164337635,
+    "probabilities": [
+      0.013846097514033318,
+      0.9344543814659119,
+      0.05169951915740967
+    ]
+  },
+  {
+    "id": "c9ca1a63955f555d8f712c35c9746877ed495bde7e2b64c762dc9dc24bf583e1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.01840495690703392,
+    "probabilities": [
+      0.018260739743709564,
+      0.9450735449790955,
+      0.036665696650743484
+    ]
+  },
+  {
+    "id": "c9d8b2b844f0be797115d1a7202a2b6e260d027b57473eac8d56ae1e3993dac3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.10619914904236794,
+    "probabilities": [
+      0.01295611634850502,
+      0.8678886294364929,
+      0.11915526539087296
+    ]
+  },
+  {
+    "id": "ca586a33fbead7b018d2e05edbcacc127b018f9e7dae99fe8ecba4ad127f9197",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05396948289126158,
+    "probabilities": [
+      0.010315035469830036,
+      0.92540043592453,
+      0.06428451836109161
+    ]
+  },
+  {
+    "id": "ca5a08d9920c99e35b506617c2d444f6a28efef80dc8e9e130e3ca0cf36c25f1",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0507313571870327,
+    "probabilities": [
+      0.03999562934041023,
+      0.8692773580551147,
+      0.09072698652744293
+    ]
+  },
+  {
+    "id": "cb10bc1093f97db2a8fb733c845d99d8c11d671cf414c4795212ec8286579f94",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8989632250741124,
+    "probabilities": [
+      0.011377501301467419,
+      0.07828174531459808,
+      0.9103407263755798
+    ]
+  },
+  {
+    "id": "cb264904513802b0ed4b2e76f583d6b87daa6dfac04becff0e7660139ca5ad7c",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05390570126473904,
+    "probabilities": [
+      0.011019820347428322,
+      0.9240546822547913,
+      0.06492552161216736
+    ]
+  },
+  {
+    "id": "cbf1fb0adbb67a7a5d94aea16f1e63503d03956899d9d52292c022f04ca25cf0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.01497427187860012,
+    "probabilities": [
+      0.020369382575154305,
+      0.9442869424819946,
+      0.035343654453754425
+    ]
+  },
+  {
+    "id": "cc259f8beb71c81fb27df7fe188dce880f4029aa6ca9e4d7f6a561d301b6f61d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.10021256469190121,
+    "probabilities": [
+      0.13088124990463257,
+      0.838450014591217,
+      0.03066868521273136
+    ]
+  },
+  {
+    "id": "cd19c994d002d2b72636be408ff57325e504bbaff6eca30a4dadad0d3d834a90",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.27727555576711893,
+    "probabilities": [
+      0.012417442165315151,
+      0.6978895664215088,
+      0.2896929979324341
+    ]
+  },
+  {
+    "id": "ce4689c195da6c5ea1b87883c9c6d4576c1e98516dde26c2c0e6728b2e948d81",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9267127979546785,
+    "probabilities": [
+      0.024400366470217705,
+      0.02448643557727337,
+      0.9511131644248962
+    ]
+  },
+  {
+    "id": "cec5d1eec4418b26ade3e0dd2c253cd5cccfeb19a6df085efad7bc9e2f26966a",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9691031230613589,
+    "probabilities": [
+      0.9760183095932007,
+      0.017066532745957375,
+      0.006915186531841755
+    ]
+  },
+  {
+    "id": "d0090d6db4fb474cc71662a256bf950d10d729846560f801fff3f0f6f9147f92",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03139082342386246,
+    "probabilities": [
+      0.016462117433547974,
+      0.9356849193572998,
+      0.04785294085741043
+    ]
+  },
+  {
+    "id": "d0145d8898d404e0b1bd49e33bffb161af8c350b38d2221fa6424c564fd153e3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.06473048590123653,
+    "probabilities": [
+      0.009370358660817146,
+      0.9165288209915161,
+      0.07410084456205368
+    ]
+  },
+  {
+    "id": "d016d4bff207ff2fd17be76fd00644eac9fa36eb06c58f6ab34adb07953d5ce3",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9335736557841301,
+    "probabilities": [
+      0.01843465119600296,
+      0.029556987807154655,
+      0.9520083069801331
+    ]
+  },
+  {
+    "id": "d04bb203523c7ce52fe8a5229b80016f3daa1b2d560e47c5c528fd2b3abbbef5",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9295321721583605,
+    "probabilities": [
+      0.02465224079787731,
+      0.02116342820227146,
+      0.9541844129562378
+    ]
+  },
+  {
+    "id": "d097bad1b441606b43ad3a58ce3239b2e9f7e0ccaea7bea6a846632222393a00",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08455494046211243,
+    "probabilities": [
+      0.014566361904144287,
+      0.8863123655319214,
+      0.09912130236625671
+    ]
+  },
+  {
+    "id": "d0a24565e337f3b8c233980997457e3c92c2642c8efa53b88f262ce5409a630c",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.001413067802786827,
+    "probabilities": [
+      0.027052663266658783,
+      0.9473077654838562,
+      0.025639595463871956
+    ]
+  },
+  {
+    "id": "d0bd51d70e24aecf1804c504025912a4f6789773226485140e89747792a9caa9",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.022392254322767258,
+    "probabilities": [
+      0.016536816954612732,
+      0.9445341229438782,
+      0.03892907127737999
+    ]
+  },
+  {
+    "id": "d110c5a3777361e307780fa964245108a46f9e4589c0e6ebf045c8e55223519e",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9382431209087372,
+    "probabilities": [
+      0.019125014543533325,
+      0.023506902158260345,
+      0.9573681354522705
+    ]
+  },
+  {
+    "id": "d1b908bf7891977e9479689f01514cde312af12efc132a798e28f02995bd46a0",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.7689555138349533,
+    "probabilities": [
+      0.10561676323413849,
+      0.01981089822947979,
+      0.8745722770690918
+    ]
+  },
+  {
+    "id": "d27754b5571607cf8fd429aa7808ecdfaa0ff374e62b957615f6a0b7e6fb4a1b",
+    "truth": "neutral",
+    "label": "negative",
+    "score": -0.22296395897865295,
+    "probabilities": [
+      0.47738882899284363,
+      0.2681862413883209,
+      0.2544248700141907
+    ]
+  },
+  {
+    "id": "d36e2aa60f944434dc28e97b6e5295373265e1bece24e9f079d02ee1625fa237",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.09399709850549698,
+    "probabilities": [
+      0.010000787675380707,
+      0.8860012888908386,
+      0.10399788618087769
+    ]
+  },
+  {
+    "id": "d37e0fab49ff5cafb8a45714c3a3494cca3972982c8c9ae5349edfd415e32431",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.931506859138608,
+    "probabilities": [
+      0.020251763984560966,
+      0.027989650145173073,
+      0.951758623123169
+    ]
+  },
+  {
+    "id": "d3dbb0de22af1e949258e5d335f6d9079e5f62ea00f0a4c85fba5d1f0a5cfb9d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.07615987956523895,
+    "probabilities": [
+      0.056509315967559814,
+      0.8108214735984802,
+      0.13266919553279877
+    ]
+  },
+  {
+    "id": "d4a1613a58c5f9ee13b6005887d932a6f84f06fa38e4d2e46d8acaf89dd910ad",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04413522966206074,
+    "probabilities": [
+      0.010401612147688866,
+      0.935061514377594,
+      0.0545368418097496
+    ]
+  },
+  {
+    "id": "d4d434b508a24271a4a5250e8a262d94589411f5370ffc64702baa9d8de16437",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04527553729712963,
+    "probabilities": [
+      0.011588303372263908,
+      0.9315478801727295,
+      0.05686384066939354
+    ]
+  },
+  {
+    "id": "d5832c10b38c16e34fdf2178aeb27ba06c9047d7af5f0c1bc085e92004800fae",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03612585738301277,
+    "probabilities": [
+      0.014446262270212173,
+      0.9349815845489502,
+      0.050572119653224945
+    ]
+  },
+  {
+    "id": "d5ad6af7befd5ac18f3113ad2ac3bafaf28911249917c253f9ae0218f7047ddc",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.003238556906580925,
+    "probabilities": [
+      0.028589600697159767,
+      0.9395822286605835,
+      0.03182815760374069
+    ]
+  },
+  {
+    "id": "d631fbb503067d0d8178e3e190cc135a04d0a0007b14a0b5aa9e6d6b669a3067",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.061086639761924744,
+    "probabilities": [
+      0.012916527688503265,
+      0.9130802750587463,
+      0.07400316745042801
+    ]
+  },
+  {
+    "id": "d7806eae7efa8ff24b51b82573e13e42af540ad341b52df3d69fd204ae43ef40",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.10037918854504824,
+    "probabilities": [
+      0.00899029802531004,
+      0.8816401958465576,
+      0.10936948657035828
+    ]
+  },
+  {
+    "id": "d7c058357ff847eb785217bdaf1584b55160ba4025753795fde810f4bc54b911",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05687871016561985,
+    "probabilities": [
+      0.016169918701052666,
+      0.9107815027236938,
+      0.07304862886667252
+    ]
+  },
+  {
+    "id": "d87fd8436b921e4d7e178715eb6d6541a9341f0c70ba6672695a741b3cfdeadb",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.07458619680255651,
+    "probabilities": [
+      0.01261224690824747,
+      0.9001892805099487,
+      0.08719844371080399
+    ]
+  },
+  {
+    "id": "d8cadf54846861dc038ab0daf8808fe0417bd4e0ace7ab2d6ffd97cb0d8736a7",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.014786148443818092,
+    "probabilities": [
+      0.0235359575599432,
+      0.938141942024231,
+      0.03832210600376129
+    ]
+  },
+  {
+    "id": "d901dbada7da0a3182a136de9c22c1ff1a4131627e4c8a66bb23aa17a4418cbe",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.00872332975268364,
+    "probabilities": [
+      0.03105129860341549,
+      0.9466207027435303,
+      0.02232796885073185
+    ]
+  },
+  {
+    "id": "d999da7f4e104ec95e132efe446fcb8350236a9d0a2e58fbe2a3932e43b5df18",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.891367856413126,
+    "probabilities": [
+      0.043530579656362534,
+      0.021570974960923195,
+      0.9348984360694885
+    ]
+  },
+  {
+    "id": "da487aaf6fdb2377084ff9a667eb1e5e3d222b5abeacbfc014a4beb51a3235dd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.14234293717890978,
+    "probabilities": [
+      0.00875918846577406,
+      0.8401386737823486,
+      0.15110212564468384
+    ]
+  },
+  {
+    "id": "dad5ac86f77acce7052a4e8ad5cc72e28d630aac300a94be54ddc9681033a4fe",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9656768618151546,
+    "probabilities": [
+      0.975825309753418,
+      0.014026311226189137,
+      0.010148447938263416
+    ]
+  },
+  {
+    "id": "dbe73e54d48d805953e6a0ae52358b19a693e30600accdd963e3c9bc335b66c7",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.8858786411583424,
+    "probabilities": [
+      0.04757694527506828,
+      0.018967438489198685,
+      0.9334555864334106
+    ]
+  },
+  {
+    "id": "dc0c9a7c5c98b9018d775aeee36e1716f3835f795710e732d4b3f00c767dc540",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.019905203953385353,
+    "probabilities": [
+      0.01762048341333866,
+      0.9448538422584534,
+      0.037525687366724014
+    ]
+  },
+  {
+    "id": "dc497087808a32f86a5509e98e3439fc5d3b75096c467616eba553a6b3413f2b",
+    "truth": "neutral",
+    "label": "positive",
+    "score": 0.9093767069280148,
+    "probabilities": [
+      0.01112041249871254,
+      0.06838249415159225,
+      0.9204971194267273
+    ]
+  },
+  {
+    "id": "dd3518b707a319215ee673c9b7af46f33aa0edb44435280e1b05d44b1cac6641",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.1470921146683395,
+    "probabilities": [
+      0.006864253897219896,
+      0.8391793370246887,
+      0.1539563685655594
+    ]
+  },
+  {
+    "id": "de3e9e392314b5f3cfd507ec2ee1eb3aa1eff5f9b80feda2a3c40b8c15b6aa93",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9611606150865555,
+    "probabilities": [
+      0.9761853814125061,
+      0.00878977868705988,
+      0.015024766325950623
+    ]
+  },
+  {
+    "id": "deaa921e0598357a70d6caf0d40de947dccda3dd7125cb3db6ca2328132c4b94",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9674494117498398,
+    "probabilities": [
+      0.9755644202232361,
+      0.016320616006851196,
+      0.008115008473396301
+    ]
+  },
+  {
+    "id": "deda18ee0476817de5527a3a1bfba0051134b18f61d270d99aeaf4b6f6885a78",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.008202923461794853,
+    "probabilities": [
+      0.023851102218031883,
+      0.9440948963165283,
+      0.032054025679826736
+    ]
+  },
+  {
+    "id": "df9103949c5db88f7f6ad881ff923f0d6c7e1590f2766e89f9f4876db9bb2433",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9296781793236732,
+    "probabilities": [
+      0.020213685929775238,
+      0.02989446371793747,
+      0.9498918652534485
+    ]
+  },
+  {
+    "id": "dfd6722ddf8467312b320013461e9e7248cc419b8db3d2a0cd3ec16f0effa6f3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0004446301609277725,
+    "probabilities": [
+      0.022508159279823303,
+      0.9545391201972961,
+      0.022952789440751076
+    ]
+  },
+  {
+    "id": "e0c9bc163fc1c869a6472c262829c7c68ba76cac7dd3a2c67df29275ee6471a0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.01362900622189045,
+    "probabilities": [
+      0.017743272706866264,
+      0.9508845210075378,
+      0.031372278928756714
+    ]
+  },
+  {
+    "id": "e0e7e0ccbf0c222fd7f5e19541b0b190b13716c6155eb2e0fdcd74d5a6457493",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9323769640177488,
+    "probabilities": [
+      0.022083835676312447,
+      0.023455459624528885,
+      0.9544607996940613
+    ]
+  },
+  {
+    "id": "e0eb7cb1ec445557df4954f4b222bc8a7d590a3bb2b27007699386de15a61dc0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.040760260075330734,
+    "probabilities": [
+      0.025286998599767685,
+      0.9086657762527466,
+      0.06604725867509842
+    ]
+  },
+  {
+    "id": "e14b82d99e4be56b858b560e40669bf24bc0116c719bd12ec824992bed232336",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.02159818820655346,
+    "probabilities": [
+      0.015134761109948158,
+      0.9481322765350342,
+      0.03673294931650162
+    ]
+  },
+  {
+    "id": "e1cd4e4d2ca3fd61ad919dd99da287d0df9dcdd6b8524bf4c1ae1dc1d5ad1dea",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.056841771118342876,
+    "probabilities": [
+      0.008913991041481495,
+      0.9253302216529846,
+      0.06575576215982437
+    ]
+  },
+  {
+    "id": "e2177a5040bf7af860fe20e796fa308ba5fa26021373324070ff4aac5e506ea7",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.09261132031679153,
+    "probabilities": [
+      0.010126523673534393,
+      0.8871356248855591,
+      0.10273784399032593
+    ]
+  },
+  {
+    "id": "e39ba14f8e7096744299a9199aa2e89481b6a4d72671303570f14ca5653c25a3",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9303236566483974,
+    "probabilities": [
+      0.023859206587076187,
+      0.02195792645215988,
+      0.9541828632354736
+    ]
+  },
+  {
+    "id": "e3fd4ffd9b1ef6c654e249f244bcf840630fbbc8aa9bdfc55cdf0b47c3154c2c",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.07144468370825052,
+    "probabilities": [
+      0.010285838507115841,
+      0.9079836010932922,
+      0.08173052221536636
+    ]
+  },
+  {
+    "id": "e413bcbbde5c0f5e0f1129ab90241ec648e87994bfcfb0ceae0a46aacf203747",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04913735203444958,
+    "probabilities": [
+      0.010192891582846642,
+      0.9304768443107605,
+      0.05933024361729622
+    ]
+  },
+  {
+    "id": "e454e78947ab1d13e1716e04536da5cb526cc049d46e987d80f9f9d1473e80f3",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03341863676905632,
+    "probabilities": [
+      0.0452311672270298,
+      0.8761189579963684,
+      0.07864980399608612
+    ]
+  },
+  {
+    "id": "e513131d8d93b66b2ce8f9bee6a92c439825e710f33bf4b1af14fc7438ab1d97",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.008242767304182053,
+    "probabilities": [
+      0.03079320676624775,
+      0.946656346321106,
+      0.022550439462065697
+    ]
+  },
+  {
+    "id": "e572041e86e8a746f21d29173b18af79e0e240a651dc77308063ff0fe842cd35",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9207717888057232,
+    "probabilities": [
+      0.027962256222963333,
+      0.02330373041331768,
+      0.9487340450286865
+    ]
+  },
+  {
+    "id": "e72434f4f3fad3c8428ebb604fa759886bc58df7b4a709502a59d63f3c641ca5",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.058761381544172764,
+    "probabilities": [
+      0.01042215432971716,
+      0.9203943014144897,
+      0.06918353587388992
+    ]
+  },
+  {
+    "id": "e7c99c6d73353bb7c10e3b19716db724d9e4d732a1efb20c592671f23620a716",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9604599233716726,
+    "probabilities": [
+      0.9744201898574829,
+      0.01161955762654543,
+      0.01396026648581028
+    ]
+  },
+  {
+    "id": "e7ed21d68e434e708e3623eeb4fb1843debddfd2d8f3fd7ae603a68ec539c94f",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.08831626083701849,
+    "probabilities": [
+      0.013855607248842716,
+      0.8839725852012634,
+      0.1021718680858612
+    ]
+  },
+  {
+    "id": "e89c203f5c18a5bb9c8d6d671a31d08d08a421e6af5a697ac08374296681ef53",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.09778620023280382,
+    "probabilities": [
+      0.008662949316203594,
+      0.8848878741264343,
+      0.10644914954900742
+    ]
+  },
+  {
+    "id": "e967de4edeffe76531bf7f5c4d55cb015ecc1a27036ce55017c1bc5e1cb4b7c3",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9494255557656288,
+    "probabilities": [
+      0.9701270461082458,
+      0.009171515703201294,
+      0.020701490342617035
+    ]
+  },
+  {
+    "id": "ea42272ebb9ae78b433a97c3003cdd03c014698d075b59dd4fa3c4c79b1fb475",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.020490020513534546,
+    "probabilities": [
+      0.047574784606695175,
+      0.9253404140472412,
+      0.02708476409316063
+    ]
+  },
+  {
+    "id": "eb7c8648b837c206aa661349e870102dd99fc24a5205982b7e9d35b54c16ba7c",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.020428718999028206,
+    "probabilities": [
+      0.01773553527891636,
+      0.9441002011299133,
+      0.038164254277944565
+    ]
+  },
+  {
+    "id": "ebb8451c934ad54eb172fb6159438c52ca4b4326861c37106319c94abfde36fd",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.10586374904960394,
+    "probabilities": [
+      0.009513535536825657,
+      0.8751091957092285,
+      0.1153772845864296
+    ]
+  },
+  {
+    "id": "ebc281abd3bf885387c46d57c77954e52b80935664d040ccbaafe4b5cdb5a61e",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.005056360736489296,
+    "probabilities": [
+      0.020121367648243904,
+      0.9547008872032166,
+      0.0251777283847332
+    ]
+  },
+  {
+    "id": "ebe570c5718dc189ef8b3d29516c681f574d4e087b70e847c75c4635cd90b072",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.016156816855072975,
+    "probabilities": [
+      0.02203921042382717,
+      0.9397647380828857,
+      0.038196027278900146
+    ]
+  },
+  {
+    "id": "eca36c850090af5f0207244443bb4eb48b3f8316cacdf9a88142d3a5faaa442d",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.05531742796301842,
+    "probabilities": [
+      0.047977264970541,
+      0.8487280011177063,
+      0.10329469293355942
+    ]
+  },
+  {
+    "id": "ecd7bd6bfb0d4a0eddab8aa576d0875226b5d87194caebb727505f359c16f97d",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9670320563018322,
+    "probabilities": [
+      0.9760973453521729,
+      0.014837371185421944,
+      0.009065289050340652
+    ]
+  },
+  {
+    "id": "ecf7dc8c2c875696122deee18b741a4afc7c84e006f3377b04ad0c8a85e99f63",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9366542119532824,
+    "probabilities": [
+      0.02020948939025402,
+      0.022926772013306618,
+      0.9568637013435364
+    ]
+  },
+  {
+    "id": "ed20bc850eccb333d9382452481ac249e843977724887e05cc2e8d5ea917a24d",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9651688309386373,
+    "probabilities": [
+      0.9743914604187012,
+      0.016386015340685844,
+      0.009222629480063915
+    ]
+  },
+  {
+    "id": "ed6e53d22072d6a1366a0f2f11cdf45207f0290015915c104dd273ee626fde69",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9200709294527769,
+    "probabilities": [
+      0.027737932279706,
+      0.02445327490568161,
+      0.9478088617324829
+    ]
+  },
+  {
+    "id": "edac49a8473ed871d593c262be31ad5d37b606b6442edc1e34d9be0c9f0b47c8",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9415073040872812,
+    "probabilities": [
+      0.016812002286314964,
+      0.024868695065379143,
+      0.9583193063735962
+    ]
+  },
+  {
+    "id": "edb3f2a19e18623f54c0d61cf4a431964bd13ca5ccd807b66ffb3fb12d30e0d2",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.021689606830477715,
+    "probabilities": [
+      0.024216460064053535,
+      0.9298774600028992,
+      0.04590606689453125
+    ]
+  },
+  {
+    "id": "edddb50d7ab851328d29b30e042ec96f429c75d10e560ec59ed3beabaaf73dc5",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9397368710488081,
+    "probabilities": [
+      0.016980381682515144,
+      0.026302332058548927,
+      0.9567172527313232
+    ]
+  },
+  {
+    "id": "ef530566d7a3d716bcd7ee1291fbdbaae316c500f828340115eb04416a2b7b48",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.0006379503756761551,
+    "probabilities": [
+      0.026909027248620987,
+      0.9468198418617249,
+      0.026271076872944832
+    ]
+  },
+  {
+    "id": "f05fed94cdaa2e67635e69baea3b7a8239886ff7c93e8f71ae218759eb63b689",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.0005959458649158478,
+    "probabilities": [
+      0.0241938978433609,
+      0.9522081613540649,
+      0.023597951978445053
+    ]
+  },
+  {
+    "id": "f257196c8a3f189ff2fd17e68979077b8de70d47f5a417c215ef5a4c723e6918",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9420261010527611,
+    "probabilities": [
+      0.016848303377628326,
+      0.02427728846669197,
+      0.9588744044303894
+    ]
+  },
+  {
+    "id": "f2de365162df118b8197b8b966ccf26c8cf34fe74f551ebcff898ba0d2b6d221",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.03404866345226765,
+    "probabilities": [
+      0.012360045686364174,
+      0.9412312507629395,
+      0.04640870913863182
+    ]
+  },
+  {
+    "id": "f317ffaf0656f65735bfbf16877fa6ac2e30dbfecaffab24052f6e73a6b1489c",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.006287584081292152,
+    "probabilities": [
+      0.02800195850431919,
+      0.9377084970474243,
+      0.03428954258561134
+    ]
+  },
+  {
+    "id": "f3d54966458f7d34cdb620c3d8bb7bde19b13fd12b59edf1ec6ff216f5e45c9a",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.24175045965239406,
+    "probabilities": [
+      0.0070214164443314075,
+      0.7442067265510559,
+      0.24877187609672546
+    ]
+  },
+  {
+    "id": "f444c752e936c62a289e3d0a93a089f6344559187179c24a314b9b88ecf7d489",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.031183727085590363,
+    "probabilities": [
+      0.012910265475511551,
+      0.9429957270622253,
+      0.04409399256110191
+    ]
+  },
+  {
+    "id": "f4f59246dcf59c18dc518030f99f9798656a82352bc9ec8451d76bbe48ce1150",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": -0.006475778296589851,
+    "probabilities": [
+      0.032989662140607834,
+      0.9404965043067932,
+      0.026513883844017982
+    ]
+  },
+  {
+    "id": "f54fad909e47cc1bcff98cc9ed5b7053138d9d5a28d073e3940b1fe6e416d9d5",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9189242273569107,
+    "probabilities": [
+      0.02766786515712738,
+      0.025740070268511772,
+      0.9465920925140381
+    ]
+  },
+  {
+    "id": "f5e7f6ef29ab45f0e9ba180cc67ba977209fd1b082a7c19ae7424f75f3036baf",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9249761737883091,
+    "probabilities": [
+      0.025956925004720688,
+      0.0231099221855402,
+      0.9509330987930298
+    ]
+  },
+  {
+    "id": "f70b5cc28c7983855f8a5c023d46ff71ed5bdb26a8f2de81741956d7a0cba997",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9630146753042936,
+    "probabilities": [
+      0.9759077429771423,
+      0.011199165135622025,
+      0.012893067672848701
+    ]
+  },
+  {
+    "id": "f7215683b52be8a35aee8560011deaffdaf8f6f8e0ed24b6316b33adb0cc894b",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.11591988056898117,
+    "probabilities": [
+      0.007797911763191223,
+      0.8684842586517334,
+      0.1237177923321724
+    ]
+  },
+  {
+    "id": "f8314e34ee7a12ca4842983b287b5ed37dabdf90086fe22e58cbc1ca88a27d9c",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.0896014766767621,
+    "probabilities": [
+      0.009645367972552776,
+      0.8911077976226807,
+      0.09924684464931488
+    ]
+  },
+  {
+    "id": "fa0bb9dea3c4a0a012623f85a9a7616d46111f5e86991769044710e75d5772f0",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.011489477008581161,
+    "probabilities": [
+      0.01527702808380127,
+      0.9579564332962036,
+      0.02676650509238243
+    ]
+  },
+  {
+    "id": "fa2cb0a61ab165c0f1f9c076df891ffe809cefb11a5fbbeff946a1220715a6a2",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.020188499242067337,
+    "probabilities": [
+      0.01703644171357155,
+      0.9457386136054993,
+      0.037224940955638885
+    ]
+  },
+  {
+    "id": "fad9757f2fe05548a2afc18cfab93f71a50537526c852f77e0a20e2bce9acf84",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.038608407601714134,
+    "probabilities": [
+      0.012356093153357506,
+      0.9366793632507324,
+      0.05096450075507164
+    ]
+  },
+  {
+    "id": "fc41ae00f31687981d520c3d099d0737d9ef34ce0c36f0f82cbc982ae2525180",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9341830313205719,
+    "probabilities": [
+      0.0232677161693573,
+      0.019281473010778427,
+      0.9574507474899292
+    ]
+  },
+  {
+    "id": "fd4675d91cc216b94a3f3a5cf659124d2b6aad5bd6822255cdd7c6c52e3ffbc5",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9332882836461067,
+    "probabilities": [
+      0.9623594284057617,
+      0.00856942217797041,
+      0.029071144759655
+    ]
+  },
+  {
+    "id": "fed89385bb0bf38471ec089260eaa3d801d8767c8dc4a45a1187f84c9aaecc39",
+    "truth": "neutral",
+    "label": "neutral",
+    "score": 0.04296422377228737,
+    "probabilities": [
+      0.014418978244066238,
+      0.9281978011131287,
+      0.05738320201635361
+    ]
+  },
+  {
+    "id": "ff6579e45028a11f7bf9f9f1048db4e4aa4a303c3e259ad7957620396a7b790a",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.9579987358301878,
+    "probabilities": [
+      0.9700415730476379,
+      0.017915578559041023,
+      0.012042837217450142
+    ]
+  },
+  {
+    "id": "ffed009e7cb990458df3fa3058d62b7b5b05c44421978c52286c97994c18a67d",
+    "truth": "positive",
+    "label": "positive",
+    "score": 0.9368274174630642,
+    "probabilities": [
+      0.017407778650522232,
+      0.028357060626149178,
+      0.9542351961135864
+    ]
+  },
+  {
+    "id": "fff4c2bc12ba489d2b97911e51b88bca2e806f488d7d7c826ae3bf8a3b2f38ae",
+    "truth": "negative",
+    "label": "negative",
+    "score": -0.8891747239977121,
+    "probabilities": [
+      0.9132157564163208,
+      0.0627431645989418,
+      0.024041032418608665
+    ]
+  }
+]

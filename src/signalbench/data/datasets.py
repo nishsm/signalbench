@@ -90,9 +90,14 @@ def repository_files(repo: str, revision: str, manifest: dict) -> list[str]:
     key = repo + ":files"
     if key not in manifest:
         from huggingface_hub.constants import HF_HUB_CACHE
-        snapshot = Path(HF_HUB_CACHE) / ("datasets--" + repo.replace("/", "--")) / "snapshots" / revision
+
+        snapshot = (
+            Path(HF_HUB_CACHE) / ("datasets--" + repo.replace("/", "--")) / "snapshots" / revision
+        )
         cached = [str(path.relative_to(snapshot)) for path in snapshot.rglob("*") if path.is_file()]
-        manifest[key] = cached or HfApi().list_repo_files(repo, repo_type="dataset", revision=revision)
+        manifest[key] = cached or HfApi().list_repo_files(
+            repo, repo_type="dataset", revision=revision
+        )
     return manifest[key]
 
 

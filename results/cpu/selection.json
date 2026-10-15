@@ -1,0 +1,4 @@
+{
+  "best_api": null,
+  "criterion": "validation macro-F1 only; lexical tie-break"
+}

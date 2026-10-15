@@ -1,0 +1,10 @@
+{
+  "takala/financial_phrasebank": "8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964",
+  "zeroshot/twitter-financial-news-sentiment": "ccbe24de388e287beb92dd393a335c376b350ac3",
+  "takala/financial_phrasebank:files": [
+    "data/FinancialPhraseBank-v1.0.zip"
+  ],
+  "zeroshot/twitter-financial-news-sentiment:files": [
+    "sent_valid.csv"
+  ]
+}

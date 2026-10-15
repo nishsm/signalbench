@@ -102,6 +102,15 @@ class APIModel:
                 )
                 response.raise_for_status()
                 raw, seconds = response.json(), time.perf_counter() - start
+                raw["_signalbench_billing"] = {
+                    key: self.cfg[key]
+                    for key in [
+                        "input_per_million",
+                        "output_per_million",
+                        "price_date",
+                        "price_source",
+                    ]
+                }
                 usage = raw["usage"]
                 cost = (
                     usage["prompt_tokens"] * self.cfg["input_per_million"]
@@ -125,6 +134,7 @@ class APIModel:
                     "seconds": seconds,
                     "usage": raw["usage"],
                     "cache_key": key,
+                    "price_record": raw.get("_signalbench_billing"),
                 }
             )
         return rows

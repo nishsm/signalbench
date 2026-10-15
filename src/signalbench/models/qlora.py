@@ -49,8 +49,13 @@ def load(cfg: dict, revision: str, adapter: bool = False):
         attn_implementation="eager",
     )
     if adapter:
+        import json
+
         from peft import PeftModel
 
+        saved = json.loads((Path(cfg["paths"]["adapter"]) / "experiment.json").read_text())
+        if saved["base_revision"] != revision:
+            raise ValueError("Adapter base revision differs from the requested frozen base")
         model = PeftModel.from_pretrained(model, cfg["paths"]["adapter"])
     return model, tokenizer
 
@@ -89,14 +94,30 @@ class Qwen:
 
 def train(cfg: dict, frame, revision: str) -> None:
     """Train completion-only labels, early stop on validation loss, save adapter only."""
+    import json
+
     import torch
     from datasets import Dataset
     from peft import LoraConfig, prepare_model_for_kbit_training
     from transformers import EarlyStoppingCallback, set_seed
     from trl import SFTConfig, SFTTrainer
 
+    from signalbench.core import artifact, digest
+
+    manifest = {
+        "base_revision": revision,
+        "training": cfg["training"],
+        "seed": cfg["seed"],
+        "data_ids": sorted(frame.loc[frame.split.isin(["train", "val"]), "id"].tolist()),
+    }
+    manifest["hash"] = digest(manifest)
+    checkpoint_dir = Path("models/checkpoints")
+    manifest_path = checkpoint_dir / "experiment.json"
+    if manifest_path.exists() and json.loads(manifest_path.read_text())["hash"] != manifest["hash"]:
+        raise ValueError("Checkpoint experiment differs; choose a new checkpoint directory")
     set_seed(cfg["seed"])
     model, tokenizer = load(cfg, revision)
+    artifact(manifest_path, cfg, json.dumps(manifest, indent=2))
     model = prepare_model_for_kbit_training(model, use_gradient_checkpointing=True)
     model.config.use_cache = False
     tr = cfg["training"]
@@ -164,6 +185,7 @@ def train(cfg: dict, frame, revision: str) -> None:
     trainer.train(resume_from_checkpoint=resume)
     trainer.save_model(cfg["paths"]["adapter"])
     tokenizer.save_pretrained(cfg["paths"]["adapter"])
+    artifact(Path(cfg["paths"]["adapter"]) / "experiment.json", cfg, json.dumps(manifest, indent=2))
     import json
 
     from signalbench.core import artifact

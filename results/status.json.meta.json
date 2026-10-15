@@ -1,0 +1,95 @@
+{
+  "config": {
+    "seed": 42,
+    "paths": {
+      "db": "data/signalbench.duckdb",
+      "results": "results",
+      "cache": "data/cache",
+      "adapter": "models/qwen-sentiment"
+    },
+    "data": {
+      "phrasebank": "takala/financial_phrasebank",
+      "configs": [
+        "sentences_allagree",
+        "sentences_75agree"
+      ],
+      "twitter": "zeroshot/twitter-financial-news-sentiment",
+      "near_similarity": 0.95
+    },
+    "benchmark": {
+      "models": [
+        "majority",
+        "tfidf",
+        "finbert",
+        "api_zero",
+        "api_few",
+        "api_rag",
+        "qwen_base",
+        "qlora"
+      ],
+      "bootstrap": 1000,
+      "shots_per_label": 2
+    },
+    "api": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "input_per_million": 0.15,
+      "output_per_million": 0.6,
+      "price_date": "2026-10-14",
+      "price_source": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+      "budget": 20.0,
+      "max_output_tokens": 8
+    },
+    "training": {
+      "base": "Qwen/Qwen2.5-3B-Instruct",
+      "max_length": 256,
+      "epochs": 5,
+      "batch_size": 1,
+      "accumulation": 16,
+      "learning_rate": 0.0002,
+      "eval_steps": 50,
+      "save_steps": 50,
+      "patience": 3,
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05
+    },
+    "edgar": {
+      "universe": "data/universe.csv",
+      "start": "2019-01-01",
+      "end": "2026-09-30",
+      "scaleup_approved": false
+    },
+    "signal": {
+      "models": [
+        "finbert",
+        "qlora"
+      ],
+      "sentences": 40,
+      "api_subsample": 100
+    },
+    "backtest": {
+      "hold_days": 5,
+      "costs_bps": [
+        0,
+        10,
+        25
+      ],
+      "training_cutoffs": {
+        "finbert": null,
+        "api_zero": "2023-10-01",
+        "api_few": "2023-10-01",
+        "api_rag": "2023-10-01",
+        "qlora": null
+      },
+      "minimum_month_events": 10
+    },
+    "hub": {
+      "repo_id": null
+    }
+  },
+  "config_hash": "c9ff7380af31b2a5f77de5a05b619f38e75289c52692715981b393c7fa712b48",
+  "source_hash": "08eaaaef9fa7cb425bbdeb47a7cfdcc19953eb159e095bc4044d1e5c63363f92",
+  "git_commit": "5e6f65547edd28123a223924c1ae9dd02ad774f7",
+  "git_dirty": true,
+  "timestamp": "2026-10-15T01:44:38.273710+00:00"
+}

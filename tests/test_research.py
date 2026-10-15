@@ -182,3 +182,22 @@ def test_portfolio_no_prior_close_capture_and_costs():
     assert gross.gross_pnl.sum() == 0
     assert gross.turnover.sum() == pytest.approx(0.4)
     assert net.equity.iloc[-1] == pytest.approx(1 - 0.4 * 0.001)
+
+
+def test_prompt_truncation_preserves_assistant_prefix():
+    from signalbench.models.qlora import bounded_prompt
+
+    class Tokenizer:
+        def encode(self, text, **kwargs):
+            return [ord(char) for char in text]
+
+        def decode(self, tokens, **kwargs):
+            return "".join(chr(token) for token in tokens)
+
+        def apply_chat_template(self, messages, **kwargs):
+            return "instruction|" + messages[-1]["content"] + "|assistant:"
+
+    prefix = bounded_prompt(Tokenizer(), "x" * 1000, 100)
+    assert prefix.startswith("instruction|")
+    assert prefix.endswith("|assistant:")
+    assert len(prefix) <= 92
