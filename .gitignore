@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+/data/
+/models/
+*.duckdb*
+*.sqlite*
+*.safetensors
+*.bin
+*.egg-info/
+.DS_Store
